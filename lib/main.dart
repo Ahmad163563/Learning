@@ -26,23 +26,31 @@ class MyApp extends StatelessWidget {
         ),
         body:
 
-        Row(
-          children: [
-            CircleAvatar(child: Icon(Icons.home)),
-            SizedBox(width: 50,),
-            CircleAvatar(child: Icon(Icons.video_collection)),
-            SizedBox(width: 50,),
-            CircleAvatar(child: Icon(Icons.group)),
-            SizedBox(width: 50,),
-            CircleAvatar(child: Icon(Icons.mark_email_unread)),
-            SizedBox(width: 50,),
-            CircleAvatar(child: Icon(Icons.notification_important)),
-            SizedBox(width: 50,),
-            CircleAvatar(child: Icon(Icons.menu)),
-          ],
-        )
+        // Row(
+        //   children: [
+        //     CircleAvatar(child: Icon(Icons.home)),
+        //     SizedBox(width: 50,),
+        //     CircleAvatar(child: Icon(Icons.video_collection)),
+        //     SizedBox(width: 50,),
+        //     CircleAvatar(child: Icon(Icons.group)),
+        //     SizedBox(width: 50,),
+        //     CircleAvatar(child: Icon(Icons.mark_email_unread)),
+        //     SizedBox(width: 50,),
+        //     CircleAvatar(child: Icon(Icons.notification_important)),
+        //     SizedBox(width: 50,),
+        //     CircleAvatar(child: Icon(Icons.menu)),
+        //   ],
+        // )
+        Center(
+          child: CircleAvatar(
+            radius: 100,
+            backgroundColor: Colors.green,
+            child: Text('data'),
 
-      )
+
+          ),
+        )
+      ),
     );
 
   }
