@@ -20,12 +20,12 @@ class MyApp extends StatelessWidget {
           actions: [
             Icon(Icons.add, size:40),
             Icon(Icons.search, size:30),
-            Icon(Icons.messenger, size:30)
+            Icon(Icons.messenger, size:30),
             Icon(Icons.mail)
           ],
         ),
         body:
-//012345685155
+
         Row(
           children: [
             CircleAvatar(child: Icon(Icons.home)),
