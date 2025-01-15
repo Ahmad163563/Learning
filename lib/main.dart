@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
             Icon(Icons.add, size:40),
             Icon(Icons.search, size:30),
             Icon(Icons.messenger, size:30)
-            
+            Icon(Icons.mail)
           ],
         ),
         body:
