@@ -93,7 +93,6 @@ class MyApp extends StatelessWidget {
           backgroundColor: Colors.blue,
           title: Text('FACEBOOK'),
           actions: [
-            CircleAvatar(child: Icon(Icons.add, size: 30,),),
             Icon(Icons.search),
             Icon(Icons.messenger),
           ],
@@ -123,7 +122,8 @@ class MyApp extends StatelessWidget {
           SizedBox(height: 20,),
           Row(
             children: [
-              CircleAvatar(child: Icon(Icons.person),),
+              CircleAvatar
+                (child: Icon(Icons.person),),
               SizedBox(width: 20,),
               Container(
                 height: 50,
@@ -136,7 +136,7 @@ class MyApp extends StatelessWidget {
                   child: Text('Whats on your mind'),
                 ),
               ),
-              SizedBox(width: 40,),
+              SizedBox(width: 60,),
               Icon(Icons.photo_album_outlined)
             ],
           ),
