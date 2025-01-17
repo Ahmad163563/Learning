@@ -123,14 +123,16 @@ class MyApp extends StatelessWidget {
           SizedBox(height: 20,),
 
           Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+
             children: [
+              SizedBox(width: 10,),
               CircleAvatar
                 (child: Icon(Icons.person),),
            //   SizedBox(width: 20,),
+              SizedBox(width: 10,),
               Container(
-                height: 50,
-                width: 300,
+                height: 40,
+                width: 350,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(20),
                   border: Border.all()
@@ -140,19 +142,20 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             //  SizedBox(width: 60,),
+              SizedBox(width: 20,),
               Icon(Icons.photo_album_outlined)
             ],
           ),
-          SizedBox(height: 10,),
+          SizedBox(height: 15,),
           // SizedBox(width: 5,),
            Row(
 
             children: [
-              SizedBox(width: 5,),
+              SizedBox(width: 10,),
               Container(
-                child: Icon(Icons.facebook, size: 80, color: Colors.blue,),
+                child: Icon(Icons.facebook, size: 100, color: Colors.blue,),
                 height: 120,
-                width: 80,
+                width: 100,
                 decoration: BoxDecoration(
                   color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
@@ -165,9 +168,9 @@ class MyApp extends StatelessWidget {
               Row(
                 children: [
                   Container(
-                    child: Icon( Icons.tiktok,size: 80, color: Colors.black,),
+                    child: Icon( Icons.tiktok,size: 100, color: Colors.black,),
                     height: 120,
-                    width: 80,
+                    width: 100,
                     decoration: BoxDecoration(
                       color: Colors.black26,
                       borderRadius: BorderRadius.circular(10),
@@ -180,9 +183,9 @@ class MyApp extends StatelessWidget {
               Row(
                 children: [
                   Container(
-                    child: Icon(Icons.discord, size: 80, color: Colors.white,),
+                    child: Icon(Icons.discord, size: 100, color: Colors.white,),
                     height: 120,
-                    width: 80,
+                    width: 100,
                     decoration: BoxDecoration(
                         color: Colors.deepPurpleAccent,
                       borderRadius: BorderRadius.circular(10),
@@ -195,9 +198,9 @@ class MyApp extends StatelessWidget {
               Row(
                 children: [
                   Container(
-                    child: Icon(Icons.messenger_outline, size: 80, color: Colors.purple,),
+                    child: Icon(Icons.messenger_outline, size: 100, color: Colors.purple,),
                     height: 120,
-                    width: 80,
+                    width: 100,
                     decoration: BoxDecoration(
                         color: Colors.white,
                       borderRadius: BorderRadius.circular(10),
@@ -216,3 +219,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
