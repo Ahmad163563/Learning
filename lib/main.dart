@@ -92,7 +92,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: Text('𝖋𝖆𝖈𝖊𝖇𝖔𝖔𝖐'),
+          title: Text('𝖋𝖆𝖈𝖊𝖇𝖔𝖔𝖐',),
           actions: [
             Icon(Icons.search),
             Icon(Icons.messenger),
@@ -144,50 +144,54 @@ class MyApp extends StatelessWidget {
             ],
           ),
           SizedBox(height: 10,),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          // SizedBox(width: 5,),
+           Row(
+
             children: [
-              SizedBox(width: 30,),
+              SizedBox(width: 5,),
               Container(
                 child: Icon(Icons.facebook, size: 80, color: Colors.blue,),
                 height: 120,
                 width: 80,
                 decoration: BoxDecoration(
+                  color: Colors.white,
                   borderRadius: BorderRadius.circular(10),
                   border: Border.all(),
 
 
                 ),
               ),
-              SizedBox(width: 20,),
+              SizedBox(width: 5,),
               Row(
                 children: [
                   Container(
-                    child: Icon( Icons.tiktok,size: 80, color: Colors.black26,),
+                    child: Icon( Icons.tiktok,size: 80, color: Colors.black,),
                     height: 120,
                     width: 80,
                     decoration: BoxDecoration(
+                      color: Colors.black26,
                       borderRadius: BorderRadius.circular(10),
                       border: Border.all(),
                     ),
                   )
                 ],
               ),
-              SizedBox(width: 20,),
+              SizedBox(width: 5,),
               Row(
                 children: [
                   Container(
-                    child: Icon(Icons.discord, size: 80, color: Colors.purpleAccent,),
+                    child: Icon(Icons.discord, size: 80, color: Colors.white,),
                     height: 120,
                     width: 80,
                     decoration: BoxDecoration(
+                        color: Colors.deepPurpleAccent,
                       borderRadius: BorderRadius.circular(10),
                       border: Border.all()
                     ),
                   )
                 ],
               ),
-              SizedBox(width: 20,),
+              SizedBox(width: 5,),
               Row(
                 children: [
                   Container(
@@ -195,6 +199,7 @@ class MyApp extends StatelessWidget {
                     height: 120,
                     width: 80,
                     decoration: BoxDecoration(
+                        color: Colors.white,
                       borderRadius: BorderRadius.circular(10),
                       border: Border.all()
                     ),
