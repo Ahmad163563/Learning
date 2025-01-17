@@ -91,16 +91,17 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Colors.blue,
-          title: Text('𝖋𝖆𝖈𝖊𝖇𝖔𝖔𝖐',),
+          backgroundColor: Colors.white,
+          title: Text('facebook',style: TextStyle(color: Colors.blue, fontWeight: FontWeight.bold,fontSize: 28.0),),
           actions: [
             Icon(Icons.search),
             Icon(Icons.messenger),
           ],
 
         ),
-        body:Column(children: [
 
+        body:Column(children: [
+        SizedBox(height: 10,),
           Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
