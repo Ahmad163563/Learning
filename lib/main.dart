@@ -89,9 +89,10 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: Colors.blue,
-          title: Text('FACEBOOK'),
+          title: Text('𝖋𝖆𝖈𝖊𝖇𝖔𝖔𝖐'),
           actions: [
             Icon(Icons.search),
             Icon(Icons.messenger),
@@ -120,11 +121,13 @@ class MyApp extends StatelessWidget {
 
           ),
           SizedBox(height: 20,),
+
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               CircleAvatar
                 (child: Icon(Icons.person),),
-              SizedBox(width: 20,),
+           //   SizedBox(width: 20,),
               Container(
                 height: 50,
                 width: 300,
@@ -136,15 +139,17 @@ class MyApp extends StatelessWidget {
                   child: Text('Whats on your mind'),
                 ),
               ),
-              SizedBox(width: 60,),
+            //  SizedBox(width: 60,),
               Icon(Icons.photo_album_outlined)
             ],
           ),
           SizedBox(height: 10,),
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              SizedBox(width: 10,),
+              SizedBox(width: 30,),
               Container(
+                child: Icon(Icons.facebook, size: 80, color: Colors.blue,),
                 height: 120,
                 width: 80,
                 decoration: BoxDecoration(
@@ -154,10 +159,11 @@ class MyApp extends StatelessWidget {
 
                 ),
               ),
-              SizedBox(width: 10,),
+              SizedBox(width: 20,),
               Row(
                 children: [
                   Container(
+                    child: Icon( Icons.tiktok,size: 80, color: Colors.black26,),
                     height: 120,
                     width: 80,
                     decoration: BoxDecoration(
@@ -167,10 +173,11 @@ class MyApp extends StatelessWidget {
                   )
                 ],
               ),
-              SizedBox(width: 10,),
+              SizedBox(width: 20,),
               Row(
                 children: [
                   Container(
+                    child: Icon(Icons.discord, size: 80, color: Colors.purpleAccent,),
                     height: 120,
                     width: 80,
                     decoration: BoxDecoration(
@@ -180,10 +187,11 @@ class MyApp extends StatelessWidget {
                   )
                 ],
               ),
-              SizedBox(width: 10,),
+              SizedBox(width: 20,),
               Row(
                 children: [
                   Container(
+                    child: Icon(Icons.messenger_outline, size: 80, color: Colors.purple,),
                     height: 120,
                     width: 80,
                     decoration: BoxDecoration(
