@@ -129,6 +129,16 @@ class MyApp extends StatelessWidget {
 
           ),
           SizedBox(height: 20,),
+          Row(
+            children: [
+              Container(
+                height: 5,
+                width: 500,
+                color: Colors.grey,
+              )
+            ],
+          ),
+          SizedBox(height: 10,),
 
           Row(
 
@@ -220,13 +230,35 @@ class MyApp extends StatelessWidget {
                   )
                 ],
               )
+
+
+        ],),
+               SizedBox(height: 10,),
+               Row(
+          children: [
+            Container(
+            height: 3,
+              width: 500,
+              color: Colors.grey,
+      ),
+        ],
+      ),
+          SizedBox(height: 10,),
+          Row(
+            children: [
+              CircleAvatar(child: Icon(Icons.person),),
+              Column(
+                children: [
+                  Text('header'),
+                  Text('Sub title'),
+
+                ],
+
+              )
             ],
           )
-
-
-        ],)
-
+        ]
       ),
-    );
+    ));
   }
 }
