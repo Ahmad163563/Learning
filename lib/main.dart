@@ -148,7 +148,7 @@ class MyApp extends StatelessWidget {
                   border: Border.all()
                 ),
                 child: Center(
-                  child: Text('Whats on your mind'),
+                  child: Text('Search Say Something'),
                 ),
               ),
             //  SizedBox(width: 60,),
