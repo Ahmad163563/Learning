@@ -246,15 +246,41 @@ class MyApp extends StatelessWidget {
           SizedBox(height: 10,),
           Row(
             children: [
-              CircleAvatar(child: Icon(Icons.person),),
+              CircleAvatar(child: Icon(Icons.perm_identity_sharp),),
               Column(
                 children: [
-                  Text('header'),
-                  Text('Sub title'),
+                  Text('Ahmad'),
+                  Text('Jan 17 2024'),
+
 
                 ],
 
+
+              ),
+
+
+            ],
+          ),
+          SizedBox(height: 5,),
+          Row(
+
+            children: [
+              Container(
+                height: 230,
+                width: 500,
+                color: Colors.lightBlue,
               )
+            ],
+          ),
+          SizedBox(height: 2,),
+          Row(
+            children: [
+              SizedBox(width: 5,),
+              Icon(Icons.thumb_up, ),Text('Like'),
+              SizedBox(width: 150,),
+              Icon(Icons.messenger,),Text('Comment'),
+              SizedBox(width: 145,),
+              Icon(Icons.share,),Text('Share'),
             ],
           )
         ]
