@@ -233,6 +233,7 @@ class MyApp extends StatelessWidget {
 
                   ],
                 ),
+                  SizedBox(width: 5,),
                   Row(
                     children: [
                       Container(
@@ -246,6 +247,7 @@ class MyApp extends StatelessWidget {
                       )
                     ],
                   ),
+                SizedBox(width: 5,),
                 Row(
                   children: [
                     Container(
@@ -280,6 +282,7 @@ class MyApp extends StatelessWidget {
                 children: [
                   Text('Ahmad'),
                   Text('Jan 17 2024'),
+
 
 
                 ],
