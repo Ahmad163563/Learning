@@ -100,7 +100,8 @@ class MyApp extends StatelessWidget {
 
         ),
 
-        body:Column(children: [
+        body:
+        Column(children: [
           //  Divider(
           //    color: Colors.grey,         // Line ka color
           //    thickness: 8,             // Line ki motai
@@ -168,71 +169,98 @@ class MyApp extends StatelessWidget {
           ),
           SizedBox(height: 15,),
           // SizedBox(width: 5,),
-           Row(
+           SingleChildScrollView(scrollDirection: Axis.horizontal,
+             child: Row(
 
-            children: [
+              children: [
 
-                SizedBox(width: 10,),
-              Container(
-                child: Icon(Icons.facebook, size: 100, color: Colors.blue,),
-                height: 120,
-                width: 110,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(10),
-                  border: Border.all(),
+                  SizedBox(width: 10,),
+                Container(
+                  child: Icon(Icons.facebook, size: 100, color: Colors.blue,),
+                  height: 120,
+                  width: 110,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10),
+                    border: Border.all(),
 
 
+                  ),
                 ),
-              ),
-              SizedBox(width: 5,),
-              Row(
-                children: [
-                  Container(
-                    child: Icon( Icons.tiktok,size: 100, color: Colors.black,),
-                    height: 120,
-                    width: 110,
-                    decoration: BoxDecoration(
-                      color: Colors.black26,
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(),
-                    ),
-                  )
-                ],
-              ),
-              SizedBox(width: 5,),
-              Row(
-                children: [
-                  Container(
-                    child: Icon(Icons.discord, size: 100, color: Colors.white,),
-                    height: 120,
-                    width: 110,
-                    decoration: BoxDecoration(
-                        color: Colors.deepPurpleAccent,
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all()
-                    ),
-                  )
-                ],
-              ),
-              SizedBox(width: 5,),
-              Row(
-                children: [
-                  Container(
-                    child: Icon(Icons.messenger_outline, size: 100, color: Colors.purple,),
-                    height: 120,
-                    width: 110,
-                    decoration: BoxDecoration(
-                        color: Colors.white,
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all()
-                    ),
-                  )
-                ],
-              )
+                SizedBox(width: 5,),
+                Row(
+                  children: [
+                    Container(
+                      child: Icon( Icons.tiktok,size: 100, color: Colors.black,),
+                      height: 120,
+                      width: 110,
+                      decoration: BoxDecoration(
+                        color: Colors.black26,
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(),
+                      ),
+                    )
+                  ],
+                ),
+                SizedBox(width: 5,),
+                Row(
+                  children: [
+                    Container(
+                      child: Icon(Icons.discord, size: 100, color: Colors.white,),
+                      height: 120,
+                      width: 110,
+                      decoration: BoxDecoration(
+                          color: Colors.deepPurpleAccent,
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all()
+                      ),
+                    )
+                  ],
+                ),
+                SizedBox(width: 5,),
+                Row(
+                  children: [
+                    Container(
+                      child: Icon(Icons.messenger_outline, size: 100, color: Colors.purple,),
+                      height: 120,
+                      width: 110,
+                      decoration: BoxDecoration(
+                          color: Colors.white,
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all()
+                      ),
+                    )
 
-
-        ],),
+                  ],
+                ),
+                  Row(
+                    children: [
+                      Container(
+                        height: 120,
+                        width: 110,
+                        decoration: BoxDecoration(
+                          color: Colors.pink,
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(),
+                        ),
+                      )
+                    ],
+                  ),
+                Row(
+                  children: [
+                    Container(
+                      height: 120,
+                      width: 110,
+                      decoration: BoxDecoration(
+                        color: Colors.red,
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(),
+                      ),
+                    )
+                  ],
+                )
+              ],),
+           ),
                SizedBox(height: 10,),
                Row(
           children: [
@@ -241,6 +269,7 @@ class MyApp extends StatelessWidget {
               width: 500,
               color: Colors.grey,
       ),
+
         ],
       ),
           SizedBox(height: 10,),
@@ -288,3 +317,4 @@ class MyApp extends StatelessWidget {
     ));
   }
 }
+
