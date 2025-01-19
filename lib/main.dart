@@ -304,7 +304,12 @@ class MyApp extends StatelessWidget {
                 Container(
                   height: 230,
                   width: 500,
-                  color: Colors.lightBlue,
+                  color: Colors.grey,
+                  child: Center(
+                    child: Icon(
+                      Icons.file_download,
+                    ),
+                  ),
                 )
               ],
             ),
