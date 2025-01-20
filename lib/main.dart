@@ -302,15 +302,12 @@ class MyApp extends StatelessWidget {
             Row(
               children: [
                 Container(
-                  height: 230,
-                  width: 500,
-                  color: Colors.grey,
-                  child: Center(
-                    child: Icon(
-                      Icons.file_download,
-                    ),
-                  ),
-                )
+                    height: 230,
+                    width: 500,
+                    color: Colors.grey,
+                    child: Center(
+                      child: Icon(Icons.file_download),
+                    )),
               ],
             ),
             SizedBox(
