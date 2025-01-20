@@ -88,7 +88,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-
           backgroundColor: Colors.white,
           appBar: AppBar(
             backgroundColor: Colors.white,
@@ -190,6 +189,16 @@ class MyApp extends StatelessWidget {
                     Container(
                       height: 120,
                       width: 110,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          CircleAvatar(
+                            child: Text('1'),
+                          ),
+                          Spacer(),
+                          Text('User'),
+                        ],
+                      ),
                       decoration: BoxDecoration(
                         color: Colors.lightGreenAccent,
                         borderRadius: BorderRadius.circular(10),
@@ -202,6 +211,16 @@ class MyApp extends StatelessWidget {
                     Container(
                       height: 120,
                       width: 110,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          CircleAvatar(
+                            child: Text('2'),
+                          ),
+                          Spacer(),
+                          Text('User 2'),
+                        ],
+                      ),
                       decoration: BoxDecoration(
                         color: Colors.black26,
                         borderRadius: BorderRadius.circular(10),
@@ -214,6 +233,16 @@ class MyApp extends StatelessWidget {
                     Container(
                       height: 120,
                       width: 110,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          CircleAvatar(
+                            child: Text('3'),
+                          ),
+                          Spacer(),
+                          Text('User 3'),
+                        ],
+                      ),
                       decoration: BoxDecoration(
                           color: Colors.deepPurpleAccent,
                           borderRadius: BorderRadius.circular(10),
@@ -225,6 +254,16 @@ class MyApp extends StatelessWidget {
                     Container(
                       height: 120,
                       width: 110,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          CircleAvatar(
+                            child: Text('4'),
+                          ),
+                          Spacer(),
+                          Text('User 4'),
+                        ],
+                      ),
                       decoration: BoxDecoration(
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(10),
@@ -236,6 +275,16 @@ class MyApp extends StatelessWidget {
                     Container(
                       height: 120,
                       width: 110,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          CircleAvatar(
+                            child: Text('5'),
+                          ),
+                          Spacer(),
+                          Text('User 5'),
+                        ],
+                      ),
                       decoration: BoxDecoration(
                         color: Colors.pink,
                         borderRadius: BorderRadius.circular(10),
@@ -248,25 +297,68 @@ class MyApp extends StatelessWidget {
                     Container(
                       height: 120,
                       width: 110,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          CircleAvatar(
+                            child: Text('6'),
+                          ),
+                          Spacer(),
+                          Text('User 6'),
+                        ],
+                      ),
                       decoration: BoxDecoration(
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(10),
                         border: Border.all(),
                       ),
                     ),
+                    SizedBox(
+                      width: 5,
+                    ),
                     Container(
                       height: 120,
                       width: 110,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          CircleAvatar(
+                            child: Text('7'),
+                          ),
+                          Spacer(),
+                          Text('User 7'),
+                        ],
+                      ),
                       decoration: BoxDecoration(
                         color: Colors.brown,
+                        borderRadius: BorderRadius.circular(10),
+                        border: Border.all(),
+                      ),
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    Container(
+                      height: 120,
+                      width: 110,
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          CircleAvatar(
+                            child: Text('8'),
+                          ),
+                          Spacer(),
+                          Text('User 8'),
+                        ],
+                      ),
+                      decoration: BoxDecoration(
+                        color: Colors.yellow,
+                        borderRadius: BorderRadius.circular(10),
                         border: Border.all(),
                       ),
                     )
                   ],
                 )),
-            SizedBox(
-              height: 10,
-            ),
             Row(
               children: [
                 Container(
