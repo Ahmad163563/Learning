@@ -428,7 +428,139 @@ class MyApp extends StatelessWidget {
                       borderRadius: BorderRadius.circular(10),
                       border: Border.all(),
                     ),
-                  )
+                  ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Container(
+                        height: 120,
+                        width: 110,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            CircleAvatar(
+                              child: Text('11'),
+                            ),
+                            Spacer(),
+                            Text('User 11')
+                          ],
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.blueAccent,
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Container(
+                        height: 120,
+                        width: 110,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            CircleAvatar(
+                              child: Text('11'),
+                            ),
+                            Spacer(),
+                            Text('User 11')
+                          ],
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.blueAccent,
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Container(
+                        height: 120,
+                        width: 110,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            CircleAvatar(
+                              child: Text('11'),
+                            ),
+                            Spacer(),
+                            Text('User 11')
+                          ],
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.blueAccent,
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Container(
+                        height: 120,
+                        width: 110,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            CircleAvatar(
+                              child: Text('11'),
+                            ),
+                            Spacer(),
+                            Text('User 11')
+                          ],
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.blueAccent,
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Container(
+                        height: 120,
+                        width: 110,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            CircleAvatar(
+                              child: Text('11'),
+                            ),
+                            Spacer(),
+                            Text('User 11')
+                          ],
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.blueAccent,
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(),
+                        ),
+                      ),
+                      SizedBox(
+                        width: 5,
+                      ),
+                      Container(
+                        height: 120,
+                        width: 110,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            CircleAvatar(
+                              child: Text('11'),
+                            ),
+                            Spacer(),
+                            Text('User 11')
+                          ],
+                        ),
+                        decoration: BoxDecoration(
+                          color: Colors.blueAccent,
+                          borderRadius: BorderRadius.circular(10),
+                          border: Border.all(),
+                        ),
+                      ),
                     ],
 
                   )),
