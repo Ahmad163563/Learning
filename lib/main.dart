@@ -578,7 +578,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.purpleAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -600,7 +600,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.amber,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -622,7 +622,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.amberAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -644,7 +644,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.blueGrey,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -666,7 +666,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.brown,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -688,7 +688,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.cyan,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -732,7 +732,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.cyanAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -754,7 +754,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.deepOrange,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -776,7 +776,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.greenAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -798,7 +798,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.lightGreenAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -820,7 +820,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.indigo,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -842,7 +842,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.indigoAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -864,7 +864,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.orange,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -886,7 +886,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.yellowAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -908,7 +908,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.lime,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -930,7 +930,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.teal,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -952,7 +952,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.limeAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -974,7 +974,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.orangeAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -996,7 +996,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.redAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -1018,7 +1018,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.white10,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -1040,7 +1040,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.white12,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -1062,7 +1062,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.white24,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -1084,7 +1084,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.white70,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -1106,7 +1106,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.tealAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -1128,7 +1128,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.lightBlueAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -1150,7 +1150,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.deepOrangeAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -1172,7 +1172,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.white54,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -1194,7 +1194,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.black87,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -1216,7 +1216,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.white60,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
@@ -1238,7 +1238,7 @@ class MyApp extends StatelessWidget {
                           ],
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
+                          color: Colors.white30,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
                         ),
