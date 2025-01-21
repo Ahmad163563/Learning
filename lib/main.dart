@@ -646,15 +646,20 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            CircleAvatar(
-                              child: Text('18'),
-                            ),
-                            Spacer(),
-                            Text('User 18')
-                          ],
+                        child:
+                        Padding(
+                          padding: EdgeInsets.all(8.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.indigo,
+                                child: Text('18'),
+                              ),
+                              Spacer(),
+                              Text('User 18')
+                            ],
+                          ),
                         ),
                         decoration: BoxDecoration(
                           color: Colors.purpleAccent,
@@ -668,15 +673,20 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            CircleAvatar(
-                              child: Text('19'),
-                            ),
-                            Spacer(),
-                            Text('User 19')
-                          ],
+                        child:
+                        Padding(
+                          padding: EdgeInsets.all(8.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.amber,
+                                child: Text('19'),
+                              ),
+                              Spacer(),
+                              Text('User 19')
+                            ],
+                          ),
                         ),
                         decoration: BoxDecoration(
                           color: Colors.amber,
@@ -690,15 +700,20 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            CircleAvatar(
-                              child: Text('20'),
-                            ),
-                            Spacer(),
-                            Text('User 20')
-                          ],
+                        child:
+                        Padding(
+                          padding: EdgeInsets.all(8.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.amberAccent,
+                                child: Text('20'),
+                              ),
+                              Spacer(),
+                              Text('User 20')
+                            ],
+                          ),
                         ),
                         decoration: BoxDecoration(
                           color: Colors.amberAccent,
@@ -712,15 +727,20 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            CircleAvatar(
-                              child: Text('21'),
-                            ),
-                            Spacer(),
-                            Text('User 21')
-                          ],
+                        child:
+                        Padding(
+                          padding: EdgeInsets.all(8.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.blueGrey,
+                                child: Text('21'),
+                              ),
+                              Spacer(),
+                              Text('User 21')
+                            ],
+                          ),
                         ),
                         decoration: BoxDecoration(
                           color: Colors.blueGrey,
@@ -734,15 +754,20 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            CircleAvatar(
-                              child: Text('22'),
-                            ),
-                            Spacer(),
-                            Text('User 22')
-                          ],
+                        child:
+                        Padding(
+                          padding: EdgeInsets.all(8.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.green,
+                                child: Text('22'),
+                              ),
+                              Spacer(),
+                              Text('User 22')
+                            ],
+                          ),
                         ),
                         decoration: BoxDecoration(
                           color: Colors.brown,
@@ -756,15 +781,20 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            CircleAvatar(
-                              child: Text('23'),
-                            ),
-                            Spacer(),
-                            Text('User 13')
-                          ],
+                        child:
+                        Padding(
+                          padding: EdgeInsets.all(8.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              CircleAvatar(
+                                backgroundColor: Colors.brown,
+                                child: Text('23'),
+                              ),
+                              Spacer(),
+                              Text('User 13')
+                            ],
+                          ),
                         ),
                         decoration: BoxDecoration(
                           color: Colors.cyan,
