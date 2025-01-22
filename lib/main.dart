@@ -1490,6 +1490,7 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
+                                backgroundColor: Colors.amberAccent,
                                 child: Text('50'),
                               ),
                               Spacer(),
