@@ -1602,6 +1602,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.deepPurple,
         body:
           Padding(
             padding: EdgeInsets.all(50),
@@ -1672,7 +1673,30 @@ class MyApp extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text('Or signup using')
+                    Text('Or Sign Up using')
+                  ],
+                ),
+                SizedBox(height: 20,),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    CircleAvatar(child: Icon(Icons.facebook,)),
+                    CircleAvatar(child: Icon(Icons.email,color: Colors.red,)),
+                    CircleAvatar(child: Icon(Icons.g_mobiledata)),
+                  ],
+                ),
+                SizedBox(height: 100,),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text('Or Sign Up using')
+                  ],
+                ),
+                SizedBox(height: 10,),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text('SIGN UP')
                   ],
                 )
               ],
