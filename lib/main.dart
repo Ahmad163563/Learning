@@ -1602,104 +1602,108 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.white,
         body:
           Padding(
             padding: EdgeInsets.all(50),
-            child: Column(
-              children: [
-                Row(
-                  children: [
-                    Text('Login',style: TextStyle(),),
-                  ],
-                ),
-                SizedBox(height: 30,),
-                Row(
-                  children: [
-                  Text('Username'),
-                  ],
-                ),
-                SizedBox(height: 10,),
-                Row(
-                  children: [
-                    Icon(Icons.perm_identity_sharp,),
-                    SizedBox(width: 10,),
-                    Text('Type your username'),
-                  ],
-                ),
-                SizedBox(height: 5,),
-                Divider(
-                  thickness: 2,
-                  color: Colors.grey,
-                ),
-                SizedBox(height: 5,),
-                Row(
-                  children: [
-                    Text('Password'),
-                  ],
-                ),
-                Row(
-                  children: [
-                    Icon(Icons.lock),
-                    SizedBox(width: 10,),
-                    Text('Type your password'),
-                  ],
-                ),
-                Divider(
-                  thickness: 2,
-                  color: Colors.grey,
-                ),
-                SizedBox(height: 2,),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
-                  children: [
-                    Text('Forgot password'),
-                  ],
-                ),
-                SizedBox(height: 10,),
-                Container(
-                  height: 30,
-                  width: 250,
-                  decoration: BoxDecoration(
-                    color: Colors.purple,
-                    borderRadius: BorderRadius.circular(90),
+            child:
+            SingleChildScrollView(scrollDirection: Axis.vertical,
+              child: Column(
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('Login',style: TextStyle(fontSize: 50,fontWeight: FontWeight.bold, color: Colors.black))
+                    ],
+                  ),
+                  SizedBox(height: 30,),
+                  Row(
+                    children: [
+                    Text('Username'),
+                    ],
+                  ),
+                  SizedBox(height: 10,),
+                  Row(
+                    children: [
+                      Icon(Icons.perm_identity_sharp,),
+                      SizedBox(width: 10,),
+                      Text('Type your username'),
+                    ],
+                  ),
+                  SizedBox(height: 5,),
+                  Divider(
+                    thickness: 2,
+                    color: Colors.grey,
+                  ),
+                  SizedBox(height: 5,),
+                  Row(
+                    children: [
+                      Text('Password'),
+                    ],
+                  ),
+                  Row(
+                    children: [
+                      Icon(Icons.lock),
+                      SizedBox(width: 10,),
+                      Text('Type your password'),
+                    ],
+                  ),
+                  Divider(
+                    thickness: 2,
+                    color: Colors.grey,
+                  ),
+                  SizedBox(height: 2,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Text('Forgot password'),
+                    ],
+                  ),
+                  SizedBox(height: 30,),
+                  Container(
+                    height: 30,
+                    width: 250,
+                    decoration: BoxDecoration(
+                      color: Colors.purple,
+                      borderRadius: BorderRadius.circular(90),
 
+                    ),
+                    child: Center(
+                      child: Text('Login', ),
+                    ),
                   ),
-                  child: Center(
-                    child: Text('Login', ),
+                  SizedBox(height: 30,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('Or Sign Up using')
+                    ],
                   ),
-                ),
-                SizedBox(height: 30,),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text('Or Sign Up using')
-                  ],
-                ),
-                SizedBox(height: 20,),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    CircleAvatar(child: Icon(Icons.facebook,)),
-                    CircleAvatar(child: Icon(Icons.email,color: Colors.red,)),
-                    CircleAvatar(child: Icon(Icons.g_mobiledata)),
-                  ],
-                ),
-                SizedBox(height: 100,),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text('Or Sign Up using')
-                  ],
-                ),
-                SizedBox(height: 10,),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text('SIGN UP')
-                  ],
-                )
-              ],
+                  SizedBox(height: 20,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      CircleAvatar(child: Icon(Icons.facebook,)),
+                      CircleAvatar(child: Icon(Icons.email,color: Colors.red,)),
+                      CircleAvatar(child: Icon(Icons.g_mobiledata)),
+                    ],
+                  ),
+                  SizedBox(height: 80,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('Or Sign Up using')
+                    ],
+                  ),
+                  SizedBox(height: 10,),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text('SIGN UP')
+                    ],
+                  )
+                ],
+              ),
             ),
           )
       ),
