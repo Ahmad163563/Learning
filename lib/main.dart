@@ -1622,7 +1622,7 @@ class MyApp extends StatelessWidget {
                     Text('Username'),
                     ],
                   ),
-                  SizedBox(height: 10,),
+                  SizedBox(height: 5,),
                   Row(
                     children: [
                       Icon(Icons.perm_identity_sharp,),
@@ -1641,6 +1641,7 @@ class MyApp extends StatelessWidget {
                       Text('Password'),
                     ],
                   ),
+                  SizedBox(height: 5,),
                   Row(
                     children: [
                       Icon(Icons.lock),
@@ -1686,9 +1687,15 @@ class MyApp extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      CircleAvatar(child: Icon(Icons.facebook,)),
-                      CircleAvatar(child: Icon(Icons.email,color: Colors.red,)),
-                      CircleAvatar(child: Icon(Icons.g_mobiledata)),
+                      CircleAvatar
+                      (backgroundColor: Colors.blue,
+                          child: Icon(Icons.facebook, color: Colors.white,)),
+                      CircleAvatar(
+                        backgroundColor: Colors.white,
+                          child: Icon(Icons.email,color: Colors.red,)),
+                      CircleAvatar(
+                          backgroundColor: Colors.red,
+                          child: Icon(Icons.g_mobiledata, color: Colors.white,)),
                     ],
                   ),
                   SizedBox(height: 80,),
