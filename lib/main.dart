@@ -1661,10 +1661,13 @@ class MyApp extends StatelessWidget {
                   ),
                   SizedBox(height: 30,),
                   Container(
-                    height: 30,
+                    height: 40,
                     width: 250,
                     decoration: BoxDecoration(
-                      color: Colors.purple,
+                      gradient: LinearGradient(
+                        colors: [Colors.pinkAccent, Colors.blue, Colors.purple], // Multiple colors
+                        begin: Alignment.topLeft, // Gradient starting point
+                        end: Alignment.bottomRight,), // Gradient ending point
                       borderRadius: BorderRadius.circular(90),
 
                     ),
