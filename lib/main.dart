@@ -1602,7 +1602,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Colors.lightBlue,
         body:
           Padding(
             padding: EdgeInsets.all(50),
