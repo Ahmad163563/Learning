@@ -1602,7 +1602,7 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.lightBlue,
+        backgroundColor: Colors.white70,
         body:
           Padding(
             padding: EdgeInsets.all(50),
@@ -1622,7 +1622,7 @@ class MyApp extends StatelessWidget {
                     Text('Username'),
                     ],
                   ),
-                  SizedBox(height: 5,),
+                  SizedBox(height: 7,),
                   Row(
                     children: [
                       Icon(Icons.perm_identity_sharp,),
@@ -1641,7 +1641,7 @@ class MyApp extends StatelessWidget {
                       Text('Password'),
                     ],
                   ),
-                  SizedBox(height: 5,),
+                  SizedBox(height: 7,),
                   Row(
                     children: [
                       Icon(Icons.lock),
