@@ -1827,7 +1827,7 @@ class PinterestSignupPage extends StatelessWidget {
                   child: Text(
                     "Log In here",
                     style: TextStyle(
-                      color: Colors.red,
+                      color: Colors.blue,
                       fontWeight: FontWeight.bold,
                     ),
                   ),
