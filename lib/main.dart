@@ -1509,12 +1509,11 @@ class MyApp extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    Text('hsdfohodifskdjnkjfkjefiojfijdefn', style:
+                    Text('flutter is a free open source framework from google that allow developers to build apps from multiple framework usinf a sing code base', style:
                       TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
-                        wordSpacing: 30,
-                        letterSpacing: 30
+                        wordSpacing: 10,
                       ),)
                   ],
                 ),
