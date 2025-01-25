@@ -21,9 +21,8 @@ class MyApp extends StatelessWidget {
                   color: Colors.blue,
                   fontWeight: FontWeight.bold,
                   fontSize: 28.0,
-                letterSpacing: 3,
-                  wordSpacing: 10
-              ),
+                  letterSpacing: 3,
+                  wordSpacing: 10),
             ),
             actions: [
               Icon(Icons.search),
@@ -116,8 +115,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -143,14 +141,13 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundColor:  Colors.black87,
+                                backgroundColor: Colors.black87,
                                 child: Text('2'),
                               ),
                               Spacer(),
@@ -170,8 +167,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -196,8 +192,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -222,8 +217,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -249,8 +243,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -276,8 +269,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -303,8 +295,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -330,8 +321,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -357,9 +347,8 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
-                          padding:  EdgeInsets.all(8.0),
+                        child: Padding(
+                          padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -384,8 +373,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -411,8 +399,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -438,8 +425,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -465,8 +451,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -492,8 +477,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -519,8 +503,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -546,8 +529,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -573,8 +555,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -600,8 +581,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -627,8 +607,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -654,8 +633,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -681,8 +659,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -708,8 +685,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -735,8 +711,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -762,8 +737,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -789,8 +763,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -816,8 +789,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -843,8 +815,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -870,8 +841,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -897,8 +867,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -924,8 +893,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -951,8 +919,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -978,8 +945,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1005,8 +971,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1032,8 +997,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1059,8 +1023,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1086,8 +1049,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1113,8 +1075,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1140,8 +1101,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1167,8 +1127,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1194,8 +1153,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1221,8 +1179,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1248,8 +1205,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1275,8 +1231,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1302,8 +1257,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1329,8 +1283,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1356,8 +1309,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1383,8 +1335,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1410,8 +1361,7 @@ class MyApp extends StatelessWidget {
                       Container(
                         height: 120,
                         width: 110,
-                        child:
-                        Padding(
+                        child: Padding(
                           padding: EdgeInsets.all(8.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -1466,29 +1416,21 @@ class MyApp extends StatelessWidget {
                   Icon(Icons.close)
                 ],
               ),
-              SizedBox(height: 5,),
-              SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  children: [
-                    Text('Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.', style: TextStyle(
-                      fontWeight: FontWeight.bold,
-                      color: Colors.red,
-                      //letterSpacing: 5
-                    ),),
-
-                  ],
-                ),
+              SizedBox(
+                height: 5,
               ),
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    Text('It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.' , style:
-                    TextStyle(
+                    Text(
+                      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.',
+                      style: TextStyle(
                         fontWeight: FontWeight.bold,
-                        color: Colors.blue
-                    ))
+                        color: Colors.red,
+                        //letterSpacing: 5
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -1496,12 +1438,10 @@ class MyApp extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    Text('Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.',style:
-                      TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Colors.amber
-                      ),),
-
+                    Text(
+                        'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, color: Colors.blue))
                   ],
                 ),
               ),
@@ -1509,12 +1449,26 @@ class MyApp extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    Text('flutter is a free open source framework from google that allow developers to build apps from multiple framework usinf a sing code base', style:
-                      TextStyle(
+                    Text(
+                      'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold, color: Colors.amber),
+                    ),
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Text(
+                      'flutter is a free open source framework from google that allow developers to build apps from multiple framework usinf a sing code base',
+                      style: TextStyle(
                         fontWeight: FontWeight.bold,
                         color: Colors.black,
                         wordSpacing: 10,
-                      ),)
+                      ),
+                    )
                   ],
                 ),
               ),
@@ -1522,12 +1476,13 @@ class MyApp extends StatelessWidget {
                 scrollDirection: Axis.horizontal,
                 child: Row(
                   children: [
-                    Text('Welcome to the world of flutter', style:
-                      TextStyle(
-                        fontWeight: FontWeight.w500,
-                        color: Colors.teal,
-                        wordSpacing: 5
-                      ),)
+                    Text(
+                      'Welcome to the world of flutter',
+                      style: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          color: Colors.teal,
+                          wordSpacing: 5),
+                    )
                   ],
                 ),
               ),
@@ -1576,8 +1531,8 @@ class MyApp extends StatelessWidget {
             ]),
           ),
         ));
-}    }
-
+  }
+}
 
 // import 'package:flutter/material.dart';
 //
@@ -1750,4 +1705,3 @@ class MyApp extends StatelessWidget {
 //     );
 //   }
 // }
-
