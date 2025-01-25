@@ -1519,6 +1519,19 @@ class MyApp extends StatelessWidget {
                   ],
                 ),
               ),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Text('Welcome to the world of flutter', style:
+                      TextStyle(
+                        fontWeight: FontWeight.w500,
+                        color: Colors.teal,
+                        wordSpacing: 5
+                      ),)
+                  ],
+                ),
+              ),
               SizedBox(
                 height: 3,
               ),
