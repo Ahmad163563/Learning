@@ -74,7 +74,8 @@ class MyApp extends StatelessWidget {
                     width: 10,
                   ),
                   CircleAvatar(
-                    child: Icon(Icons.person),
+                    backgroundImage: AssetImage('assests/images 1.webp'),
+                    //child: Icon(Icons.person),
                     radius: 20,
                   ),
                   //   SizedBox(width: 20,),
