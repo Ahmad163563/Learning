@@ -930,8 +930,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundColor: Colors.lightGreen,
-                                child: Text('31'),
+                                backgroundImage: AssetImage('assests/ffmeme.1.jpg'),
+                                //backgroundColor: Colors.lightGreen,
+                                //child: Text('31'),
                               ),
                               Spacer(),
                               Text('User 31')
@@ -956,8 +957,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundColor: Colors.deepPurpleAccent,
-                                child: Text('32'),
+                                backgroundImage: AssetImage('assests/pikaa,jpg'),
+                                //backgroundColor: Colors.deepPurpleAccent,
+                                //child: Text('32'),
                               ),
                               Spacer(),
                               Text('User 32')
@@ -982,8 +984,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundColor: Colors.orangeAccent,
-                                child: Text('33'),
+                                backgroundImage: AssetImage('assests/meme.2.jpg'),
+                                //backgroundColor: Colors.orangeAccent,
+                                //child: Text('33'),
                               ),
                               Spacer(),
                               Text('User 34')
@@ -1008,8 +1011,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundColor: Colors.limeAccent,
-                                child: Text('35'),
+                                backgroundImage: AssetImage('assests/meme.3.jpg'),
+                               // backgroundColor: Colors.limeAccent,
+                              //  child: Text('35'),
                               ),
                               Spacer(),
                               Text('User 35')
@@ -1034,8 +1038,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundColor: Colors.white10,
-                                child: Text('36'),
+                                backgroundImage: AssetImage('assests/meme.4.jpg'),
+                                //backgroundColor: Colors.white10,
+                                //child: Text('36'),
                               ),
                               Spacer(),
                               Text('User 36')
