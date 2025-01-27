@@ -417,8 +417,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundColor: Colors.purple,
-                                child: Text('12'),
+                                backgroundImage: AssetImage('assests/sheri.1.jpg'),
+                                //backgroundColor: Colors.purple,
+                                //child: Text('12'),
                               ),
                               Spacer(),
                               Text('User 12')
@@ -443,8 +444,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundColor: Colors.pink,
-                                child: Text('13'),
+                                backgroundImage: AssetImage('assests/sheri.2.jpg'),
+                                //backgroundColor: Colors.pink,
+                                //child: Text('13'),
                               ),
                               Spacer(),
                               Text('User 13')
@@ -469,8 +471,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundColor: Colors.blueAccent,
-                                child: Text('14'),
+                                backgroundImage: AssetImage('assests/sheri.3.jpg'),
+                                //backgroundColor: Colors.blueAccent,
+                                //child: Text('14'),
                               ),
                               Spacer(),
                               Text('User 14')
@@ -495,8 +498,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundColor: Colors.white38,
-                                child: Text('15'),
+                                backgroundImage: AssetImage('assests/ainu.1.jpg'),
+                                //backgroundColor: Colors.white38,
+                               // child: Text('15'),
                               ),
                               Spacer(),
                               Text('User 15')
