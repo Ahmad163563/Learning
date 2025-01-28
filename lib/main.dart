@@ -1770,9 +1770,30 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body:
-          Container(
-            height: ,
-          )
+          
+        Column(
+          children:[
+            Center(
+              child: Container(
+                height: 100,
+                width: 300,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  border: Border.all(),
+                ),
+                child:Container(
+                  height: 50,
+                  width: 150,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    border: Border.all()
+                  ),
+                ),
+              ),
+            ),
+      ]
+        )
+
       ),
     );
   }
