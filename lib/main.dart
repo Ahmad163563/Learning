@@ -122,8 +122,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/img2.webp'),
-                               // backgroundColor: Colors.deepOrangeAccent,
+                                backgroundImage:
+                                    AssetImage('assests/img2.webp'),
+                                // backgroundColor: Colors.deepOrangeAccent,
                                 //child: Text('1'),
                               ),
                               Spacer(),
@@ -132,16 +133,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: 
-                          AssetImage('assests/img2.webp'),
-                            fit: BoxFit.cover
-                          )
-
-
-                        ),
+                            color: Colors.blueAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/img2.webp'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -155,9 +152,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/img 4.webp'),
+                                backgroundImage:
+                                    AssetImage('assests/img 4.webp'),
                                 backgroundColor: Colors.black87,
-                               // child: Text('2'),
+                                // child: Text('2'),
                               ),
                               Spacer(),
                               Text('User 2'),
@@ -165,12 +163,11 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: 
-                          AssetImage('assests/img 4.webp'))
-                        ),
+                            color: Colors.blue,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/img 4.webp'))),
                       ),
                       SizedBox(
                         width: 5,
@@ -184,9 +181,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/image 3.webp'),
+                                backgroundImage:
+                                    AssetImage('assests/image 3.webp'),
                                 backgroundColor: Colors.redAccent,
-                               // child: Text('3'),
+                                // child: Text('3'),
                               ),
                               Spacer(),
                               Text('User 3'),
@@ -197,9 +195,9 @@ class MyApp extends StatelessWidget {
                             color: Colors.deepPurple,
                             borderRadius: BorderRadius.circular(10),
                             border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/image 3.webp'),
-                          fit: BoxFit.cover)
-                        ),
+                            image: DecorationImage(
+                                image: AssetImage('assests/image 3.webp'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -213,7 +211,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/SUKUNA.jpeg'),
+                                backgroundImage:
+                                    AssetImage('assests/SUKUNA.jpeg'),
                                 backgroundColor: Colors.lightBlueAccent,
                                 //child: Text('4'),
                               ),
@@ -226,10 +225,9 @@ class MyApp extends StatelessWidget {
                             color: Colors.lightBlue,
                             borderRadius: BorderRadius.circular(10),
                             border: Border.all(),
-                            image: DecorationImage(image: AssetImage('assests/SUKUNA.jpeg'),
-                            fit:BoxFit.cover
-                            )
-                        ),
+                            image: DecorationImage(
+                                image: AssetImage('assests/SUKUNA.jpeg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -243,7 +241,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/wtsp.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/wtsp.1.jpg'),
                                 backgroundColor: Colors.blue,
                                 //child: Text('5'),
                               ),
@@ -253,13 +252,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.yellow,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/wtsp.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.yellow,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/wtsp.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -273,7 +271,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/sukuna12.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/sukuna12.jpg'),
                                 //backgroundColor: Colors.deepOrangeAccent,
                                 //child: Text('6'),
                               ),
@@ -283,13 +282,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.grey,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/sukuna12.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.grey,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/sukuna12.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -303,7 +301,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/10th deg.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/10th deg.jpg'),
                                 //backgroundColor: Colors.teal,
                                 //child: Text('7'),
                               ),
@@ -313,13 +312,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.lightGreenAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/10th deg.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.lightGreenAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/10th deg.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -333,7 +331,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/wtsp.2.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/wtsp.2.jpg'),
                                 //backgroundColor: Colors.yellowAccent,
                                 //child: Text('8'),
                               ),
@@ -343,13 +342,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/wtsp.2.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/wtsp.2.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -363,7 +361,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/ahmaddddd.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/ahmaddddd.jpg'),
                                 //backgroundColor: Colors.orangeAccent,
                                 //hild: Text('9'),
                               ),
@@ -373,13 +372,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.purple,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/ahmaddddd.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.purple,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/ahmaddddd.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -403,13 +401,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.black26,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/ff.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.black26,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/ff.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -423,7 +420,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/cnic.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/cnic.1.jpg'),
                                 //backgroundColor: Colors.indigoAccent,
                                 //child: Text('11'),
                               ),
@@ -433,13 +431,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.black,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/cnic.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.black,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/cnic.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -453,7 +450,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/sheri.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/sheri.1.jpg'),
                                 //backgroundColor: Colors.purple,
                                 //child: Text('12'),
                               ),
@@ -463,13 +461,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.deepPurpleAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/sheri.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.deepPurpleAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/sheri.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -483,7 +480,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/sheri.2.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/sheri.2.jpg'),
                                 //backgroundColor: Colors.pink,
                                 //child: Text('13'),
                               ),
@@ -493,13 +491,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.pinkAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/sheri.2.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.pinkAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/sheri.2.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -513,7 +510,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/sheri.3.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/sheri.3.jpg'),
                                 //backgroundColor: Colors.blueAccent,
                                 //child: Text('14'),
                               ),
@@ -523,13 +521,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.black12,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/sheri.3.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.black12,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/sheri.3.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -543,9 +540,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/ainu.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/ainu.1.jpg'),
                                 //backgroundColor: Colors.white38,
-                               // child: Text('15'),
+                                // child: Text('15'),
                               ),
                               Spacer(),
                               Text('User 15')
@@ -553,13 +551,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.red,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/ainu.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.red,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/ainu.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -573,7 +570,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/shmz.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/shmz.1.jpg'),
                                 //backgroundColor: Colors.transparent,
                                 //child: Text('16'),
                               ),
@@ -583,13 +581,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.green,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/shmz.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.green,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/shmz.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -603,9 +600,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/hashi.1.jpg'),
-                               // backgroundColor: Colors.black26,
-                               // child: Text('17'),
+                                backgroundImage:
+                                    AssetImage('assests/hashi.1.jpg'),
+                                // backgroundColor: Colors.black26,
+                                // child: Text('17'),
                               ),
                               Spacer(),
                               Text('User 17')
@@ -613,13 +611,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.transparent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/hashi.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.transparent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/hashi.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -633,7 +630,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/lunch.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/lunch.1.jpg'),
                                 //backgroundColor: Colors.indigo,
                                 //child: Text('18'),
                               ),
@@ -643,13 +641,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.purpleAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/lunch.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.purpleAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/lunch.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -663,7 +660,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/krahi.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/krahi.1.jpg'),
                                 //backgroundColor: Colors.amber,
                                 //child: Text('19'),
                               ),
@@ -673,13 +671,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.amber,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/krahi.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.amber,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/krahi.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -693,7 +690,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/brkt.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/brkt.1.jpg'),
                                 //backgroundColor: Colors.amberAccent,
                                 //child: Text('20'),
                               ),
@@ -703,13 +701,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.amberAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/brkt.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.amberAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/brkt.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -723,9 +720,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/jheel.1.jpg'),
-                               // backgroundColor: Colors.blueGrey,
-                               // child: Text('21'),
+                                backgroundImage:
+                                    AssetImage('assests/jheel.1.jpg'),
+                                // backgroundColor: Colors.blueGrey,
+                                // child: Text('21'),
                               ),
                               Spacer(),
                               Text('User 21')
@@ -733,13 +731,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueGrey,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/jheel.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.blueGrey,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/jheel.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -753,9 +750,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/cnic.2.jpg'),
-                               // backgroundColor: Colors.green,
-                               // child: Text('22'),
+                                backgroundImage:
+                                    AssetImage('assests/cnic.2.jpg'),
+                                // backgroundColor: Colors.green,
+                                // child: Text('22'),
                               ),
                               Spacer(),
                               Text('User 22')
@@ -763,13 +761,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.brown,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/cnic.2.jpg'),
-                          fit:BoxFit.cover
-                          )
-                        ),
+                            color: Colors.brown,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/cnic.2.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -783,9 +780,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/imei.1.jpg'),
-                              //  backgroundColor: Colors.brown,
-                              //  child: Text('23'),
+                                backgroundImage:
+                                    AssetImage('assests/imei.1.jpg'),
+                                //  backgroundColor: Colors.brown,
+                                //  child: Text('23'),
                               ),
                               Spacer(),
                               Text('User 23')
@@ -793,13 +791,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.cyan,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/imei.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.cyan,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/imei.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -813,7 +810,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/catselfi.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/catselfi.1.jpg'),
                                 //backgroundColor: Colors.red,
                                 //child: Text('24'),
                               ),
@@ -823,13 +821,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/catselfi.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.blueAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/catselfi.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -843,7 +840,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/catselfi.2.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/catselfi.2.jpg'),
                                 //backgroundColor: Colors.tealAccent,
                                 //child: Text('25'),
                               ),
@@ -853,13 +851,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.cyanAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/catselfi.2.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.cyanAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/catselfi.2.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -873,7 +870,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/dark..jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/dark..jpg'),
                                 //backgroundColor: Colors.black38,
                                 //child: Text('26'),
                               ),
@@ -883,13 +881,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.deepOrange,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/dark..jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.deepOrange,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/dark..jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -903,9 +900,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/meme.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/meme.1.jpg'),
                                 //backgroundColor: Colors.orange,
-                               // child: Text('27'),
+                                // child: Text('27'),
                               ),
                               Spacer(),
                               Text('User 27')
@@ -913,13 +911,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.greenAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/meme.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.greenAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/meme.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -933,7 +930,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/meme.2.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/meme.2.jpg'),
                                 //backgroundColor: Colors.pinkAccent,
                                 //child: Text('28'),
                               ),
@@ -943,13 +941,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.lightGreenAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/meme.2.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.lightGreenAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/meme.2.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -963,7 +960,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/meme.3.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/meme.3.jpg'),
                                 //backgroundColor: Colors.grey,
                                 //child: Text('29'),
                               ),
@@ -973,13 +971,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.indigo,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/meme.3.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.indigo,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/meme.3.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -993,7 +990,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/meme.4.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/meme.4.jpg'),
                                 //backgroundColor: Colors.deepPurple,
                                 //child: Text('30'),
                               ),
@@ -1003,13 +1001,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.indigoAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/meme.4.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.indigoAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/meme.4.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1023,7 +1020,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/ffmeme.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/ffmeme.1.jpg'),
                                 //backgroundColor: Colors.lightGreen,
                                 //child: Text('31'),
                               ),
@@ -1033,13 +1031,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.orange,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/ffmeme.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.orange,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/ffmeme.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1053,7 +1050,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/pikaa..jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/pikaa..jpg'),
                                 //backgroundColor: Colors.deepPurpleAccent,
                                 //child: Text('32'),
                               ),
@@ -1063,13 +1061,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.yellowAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/pikaa..jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.yellowAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/pikaa..jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1083,7 +1080,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/meme.2.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/meme.2.jpg'),
                                 //backgroundColor: Colors.orangeAccent,
                                 //child: Text('33'),
                               ),
@@ -1093,13 +1091,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.lime,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/meme.2.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.lime,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/meme.2.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1113,9 +1110,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/meme.3.jpg'),
-                               // backgroundColor: Colors.limeAccent,
-                              //  child: Text('35'),
+                                backgroundImage:
+                                    AssetImage('assests/meme.3.jpg'),
+                                // backgroundColor: Colors.limeAccent,
+                                //  child: Text('35'),
                               ),
                               Spacer(),
                               Text('User 35')
@@ -1123,13 +1121,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.teal,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/meme.3.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.teal,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/meme.3.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1143,7 +1140,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/meme.4.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/meme.4.jpg'),
                                 //backgroundColor: Colors.white10,
                                 //child: Text('36'),
                               ),
@@ -1153,13 +1151,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.limeAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/meme.4.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.limeAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/meme.4.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1173,9 +1170,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/catselfi.3.jpg'),
-                               // backgroundColor: Colors.purpleAccent,
-                             //   child: Text('37'),
+                                backgroundImage:
+                                    AssetImage('assests/catselfi.3.jpg'),
+                                // backgroundColor: Colors.purpleAccent,
+                                //   child: Text('37'),
                               ),
                               Spacer(),
                               Text('User 37')
@@ -1183,13 +1181,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.orangeAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/catselfi.3.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.orangeAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/catselfi.3.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1203,8 +1200,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/urdumeme.1.jpg'),
-                               // backgroundColor: Colors.blueGrey,
+                                backgroundImage:
+                                    AssetImage('assests/urdumeme.1.jpg'),
+                                // backgroundColor: Colors.blueGrey,
                                 //child: Text('38'),
                               ),
                               Spacer(),
@@ -1213,13 +1211,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.redAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/urdumeme.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.redAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/urdumeme.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1233,9 +1230,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/zakir.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/zakir.jpg'),
                                 //backgroundColor: Colors.green,
-                               // child: Text('39'),
+                                // child: Text('39'),
                               ),
                               Spacer(),
                               Text('User 39')
@@ -1243,13 +1241,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.white10,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/zakir.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.white10,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/zakir.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1263,7 +1260,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/sudas.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/sudas.jpg'),
                                 //backgroundColor: Colors.yellow,
                                 //child: Text('40'),
                               ),
@@ -1273,13 +1271,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.white12,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/sudas.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.white12,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/sudas.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1293,8 +1290,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/usman.jpg'),
-                               // backgroundColor: Colors.indigo,
+                                backgroundImage:
+                                    AssetImage('assests/usman.jpg'),
+                                // backgroundColor: Colors.indigo,
                                 //child: Text('41'),
                               ),
                               Spacer(),
@@ -1303,13 +1301,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.white24,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/usman.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.white24,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/usman.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1323,9 +1320,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/tdm ff.1.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/tdm ff.1.jpg'),
                                 //backgroundColor: Colors.tealAccent,
-                               // child: Text('42'),
+                                // child: Text('42'),
                               ),
                               Spacer(),
                               Text('User 42')
@@ -1333,13 +1331,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.white70,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/tdm ff.1.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.white70,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/tdm ff.1.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1353,7 +1350,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/wtsp.acct.delt.jpeg'),
+                                backgroundImage:
+                                    AssetImage('assests/wtsp.acct.delt.jpeg'),
                                 //backgroundColor: Colors.redAccent,
                                 //child: Text('43'),
                               ),
@@ -1363,13 +1361,13 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.tealAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/wtsp.acct.delt.jpeg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.tealAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image:
+                                    AssetImage('assests/wtsp.acct.delt.jpeg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1383,8 +1381,9 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/ff.profile.view.jpg'),
-                               // backgroundColor: Colors.cyanAccent,
+                                backgroundImage:
+                                    AssetImage('assests/ff.profile.view.jpg'),
+                                // backgroundColor: Colors.cyanAccent,
                                 //child: Text('44'),
                               ),
                               Spacer(),
@@ -1393,13 +1392,13 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.lightBlueAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/ff.profile.view.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.lightBlueAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image:
+                                    AssetImage('assests/ff.profile.view.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1413,7 +1412,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/isb.tour.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/isb.tour.jpg'),
                                 //backgroundColor: Colors.lightGreenAccent,
                                 //child: Text('45'),
                               ),
@@ -1423,13 +1423,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.deepOrangeAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/isb.tour.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.deepOrangeAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/isb.tour.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1443,7 +1442,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/smoker..jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/smoker..jpg'),
                                 //backgroundColor: Colors.amber,
                                 //child: Text('46'),
                               ),
@@ -1453,13 +1453,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.white54,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/smoker..jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.white54,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/smoker..jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1473,9 +1472,10 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/shurim..jpg'),
-                               // backgroundColor: Colors.deepOrangeAccent,
-                               // child: Text('47'),
+                                backgroundImage:
+                                    AssetImage('assests/shurim..jpg'),
+                                // backgroundColor: Colors.deepOrangeAccent,
+                                // child: Text('47'),
                               ),
                               Spacer(),
                               Text('User 47')
@@ -1483,13 +1483,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.black87,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/shurim..jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.black87,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/shurim..jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1503,7 +1502,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/Dark wolf.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/Dark wolf.jpg'),
                                 //backgroundColor: Colors.greenAccent,
                                 //child: Text('48'),
                               ),
@@ -1513,13 +1513,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.white60,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/Dark wolf.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.white60,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/Dark wolf.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1533,7 +1532,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/dead walpaper.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/dead walpaper.jpg'),
                                 //backgroundColor: Colors.indigoAccent,
                                 //child: Text('49'),
                               ),
@@ -1543,13 +1543,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.white30,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/dead walpaper.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.white30,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/dead walpaper.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                       SizedBox(
                         width: 5,
@@ -1563,7 +1562,8 @@ class MyApp extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               CircleAvatar(
-                                backgroundImage: AssetImage('assests/cup.coffee.jpg'),
+                                backgroundImage:
+                                    AssetImage('assests/cup.coffee.jpg'),
                                 //backgroundColor: Colors.amberAccent,
                                 //child: Text('50'),
                               ),
@@ -1573,13 +1573,12 @@ class MyApp extends StatelessWidget {
                           ),
                         ),
                         decoration: BoxDecoration(
-                          color: Colors.blueAccent,
-                          borderRadius: BorderRadius.circular(10),
-                          border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assests/cup.coffee.jpg'),
-                          fit: BoxFit.cover
-                          )
-                        ),
+                            color: Colors.blueAccent,
+                            borderRadius: BorderRadius.circular(10),
+                            border: Border.all(),
+                            image: DecorationImage(
+                                image: AssetImage('assests/cup.coffee.jpg'),
+                                fit: BoxFit.cover)),
                       ),
                     ],
                   )),
@@ -1601,7 +1600,7 @@ class MyApp extends StatelessWidget {
               Row(
                 children: [
                   CircleAvatar(
-                    child: Icon(Icons.perm_identity_sharp),
+                    backgroundImage: AssetImage('assests/Dark wolf.jpg'),
                   ),
                   Column(
                     children: [
@@ -1692,14 +1691,86 @@ class MyApp extends StatelessWidget {
               Row(
                 children: [
                   Container(
-                      height: 230,
-                      width: 500,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(image: AssetImage('assests/pikaa..jpg'),
-                        fit: BoxFit.cover
-                        )
-                      ),
-                      ),
+                    height: 230,
+                    width: 500,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: AssetImage('assests/pikaa..jpg'),
+                            fit: BoxFit.cover)),
+                  ),
+                ],
+              ),
+              SizedBox(
+                height: 2,
+              ),
+              Row(
+                children: [
+                  SizedBox(
+                    width: 5,
+                  ),
+                  Icon(
+                    Icons.thumb_up,
+                  ),
+                  Text('Like'),
+                  SizedBox(
+                    width: 150,
+                  ),
+                  Icon(
+                    Icons.messenger,
+                  ),
+                  Text('Comment'),
+                  SizedBox(
+                    width: 145,
+                  ),
+                  Icon(
+                    Icons.share,
+                  ),
+                  Text('Share'),
+                ],
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Row(
+                children: [
+                  Container(
+                    height: 3,
+                    width: 500,
+                    color: Colors.grey,
+                  ),
+                ],
+              ),
+              SizedBox(
+                height: 10,
+              ),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  CircleAvatar(
+                    backgroundImage: AssetImage('assests/dark..jpg'),
+                  ),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [Text('KHAN'), Text('29 jan 25')],
+                  ),
+                  Spacer(),
+                  Icon(Icons.more_horiz),
+                  Icon(Icons.close)
+                ],
+              ),
+              SizedBox(
+                height: 5,
+              ),
+              Row(
+                children: [
+                  Container(
+                    height: 230,
+                    width: 500,
+                    decoration: BoxDecoration(
+                        image: DecorationImage(
+                            image: AssetImage('assests/Dark..jpg'),
+                            fit: BoxFit.cover)),
+                  )
                 ],
               ),
               SizedBox(
@@ -1735,175 +1806,3 @@ class MyApp extends StatelessWidget {
         ));
   }
 }
-
-// import 'package:flutter/material.dart';
-//
-// void main() {
-//   runApp(MyApp());
-// }
-//
-// class MyApp extends StatelessWidget {
-//   const MyApp({super.key});
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return MaterialApp(
-//       debugShowCheckedModeBanner: false,
-//       home: Scaffold(
-//           backgroundColor: Colors.white70,
-//           body: Padding(
-//             padding: EdgeInsets.all(50),
-//             child: SingleChildScrollView(
-//               scrollDirection: Axis.vertical,
-//               child: Column(
-//                 children: [
-//                   Row(
-//                     mainAxisAlignment: MainAxisAlignment.center,
-//                     children: [
-//                       Text('Login',
-//                           style: TextStyle(
-//                               fontSize: 50,
-//                               fontWeight: FontWeight.bold,
-//                               color: Colors.black))
-//                     ],
-//                   ),
-//                   SizedBox(
-//                     height: 30,
-//                   ),
-//                   Row(
-//                     children: [
-//                       Text('Username'),
-//                     ],
-//                   ),
-//                   SizedBox(
-//                     height: 7,
-//                   ),
-//                   Row(
-//                     children: [
-//                       Icon(
-//                         Icons.perm_identity_sharp,
-//                       ),
-//                       SizedBox(
-//                         width: 10,
-//                       ),
-//                       Text('Type your username'),
-//                     ],
-//                   ),
-//                   SizedBox(
-//                     height: 5,
-//                   ),
-//                   Divider(
-//                     thickness: 2,
-//                     color: Colors.grey,
-//                   ),
-//                   SizedBox(
-//                     height: 5,
-//                   ),
-//                   Row(
-//                     children: [
-//                       Text('Password'),
-//                     ],
-//                   ),
-//                   SizedBox(
-//                     height: 7,
-//                   ),
-//                   Row(
-//                     children: [
-//                       Icon(Icons.lock),
-//                       SizedBox(
-//                         width: 10,
-//                       ),
-//                       Text('Type your password'),
-//                     ],
-//                   ),
-//                   Divider(
-//                     thickness: 2,
-//                     color: Colors.grey,
-//                   ),
-//                   SizedBox(
-//                     height: 2,
-//                   ),
-//                   Row(
-//                     mainAxisAlignment: MainAxisAlignment.end,
-//                     children: [
-//                       Text('Forgot password'),
-//                     ],
-//                   ),
-//                   SizedBox(
-//                     height: 30,
-//                   ),
-//                   Container(
-//                     height: 40,
-//                     width: 250,
-//                     decoration: BoxDecoration(
-//                       gradient: LinearGradient(
-//                         colors: [
-//                           Colors.pinkAccent,
-//                           Colors.blue,
-//                           Colors.purple
-//                         ], // Multiple colors
-//                         begin: Alignment.topLeft, // Gradient starting point
-//                         end: Alignment.bottomRight,
-//                       ), // Gradient ending point
-//                       borderRadius: BorderRadius.circular(90),
-//                     ),
-//                     child: Center(
-//                       child: Text(
-//                         'Login',
-//                       ),
-//                     ),
-//                   ),
-//                   SizedBox(
-//                     height: 30,
-//                   ),
-//                   Row(
-//                     mainAxisAlignment: MainAxisAlignment.center,
-//                     children: [Text('Or Sign Up using')],
-//                   ),
-//                   SizedBox(
-//                     height: 20,
-//                   ),
-//                   Row(
-//                     mainAxisAlignment: MainAxisAlignment.center,
-//                     children: [
-//                       CircleAvatar(
-//                           backgroundColor: Colors.blue,
-//                           child: Icon(
-//                             Icons.facebook,
-//                             color: Colors.white,
-//                           )),
-//                       CircleAvatar(
-//                           backgroundColor: Colors.white,
-//                           child: Icon(
-//                             Icons.email,
-//                             color: Colors.red,
-//                           )),
-//                       CircleAvatar(
-//                           backgroundColor: Colors.red,
-//                           child: Icon(
-//                             Icons.g_mobiledata,
-//                             color: Colors.white,
-//                           )),
-//                     ],
-//                   ),
-//                   SizedBox(
-//                     height: 80,
-//                   ),
-//                   Row(
-//                     mainAxisAlignment: MainAxisAlignment.center,
-//                     children: [Text('Or Sign Up using')],
-//                   ),
-//                   SizedBox(
-//                     height: 10,
-//                   ),
-//                   Row(
-//                     mainAxisAlignment: MainAxisAlignment.center,
-//                     children: [Text('SIGN UP')],
-//                   )
-//                 ],
-//               ),
-//             ),
-//           )),
-//     );
-//   }
-// }
