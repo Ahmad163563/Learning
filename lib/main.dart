@@ -1366,6 +1366,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.tealAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/wtsp.acct.delt.jpeg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -1393,6 +1396,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.lightBlueAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/ff.profile.view.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -1420,6 +1426,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.deepOrangeAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/isb.tour.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -1447,6 +1456,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.white54,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/smoker..jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -1474,6 +1486,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.black87,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/shurim..jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -1501,6 +1516,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.white60,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/Dark wolf.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -1528,6 +1546,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.white30,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/dead walpaper.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -1555,6 +1576,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.blueAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/cup.coffee.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                     ],
@@ -1670,10 +1694,12 @@ class MyApp extends StatelessWidget {
                   Container(
                       height: 230,
                       width: 500,
-                      color: Colors.grey,
-                      child: Center(
-                        child: Icon(Icons.file_download),
-                      )),
+                      decoration: BoxDecoration(
+                        image: DecorationImage(image: AssetImage('assests/pikaa..jpg'),
+                        fit: BoxFit.cover
+                        )
+                      ),
+                      ),
                 ],
               ),
               SizedBox(
