@@ -225,7 +225,11 @@ class MyApp extends StatelessWidget {
                         decoration: BoxDecoration(
                             color: Colors.lightBlue,
                             borderRadius: BorderRadius.circular(10),
-                            border: Border.all()),
+                            border: Border.all(),
+                            image: DecorationImage(image: AssetImage('assests/SUKUNA.jpeg'),
+                            fit:BoxFit.cover
+                            )
+                        ),
                       ),
                       SizedBox(
                         width: 5,
@@ -252,6 +256,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.yellow,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/wtsp.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -279,6 +286,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.grey,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/sukuna12.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -306,6 +316,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.lightGreenAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/10th deg.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -333,6 +346,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.white,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/wtsp.2.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -360,6 +376,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.purple,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/ahmaddddd.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -387,6 +406,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.black26,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/ff.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -414,6 +436,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.black,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/cnic.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -441,6 +466,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.deepPurpleAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/sheri.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -468,6 +496,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.pinkAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/sheri.2.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -495,6 +526,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.black12,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/sheri.3.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -522,6 +556,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.red,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/ainu.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -549,6 +586,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.green,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/shmz.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -576,6 +616,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.transparent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/hashi.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -603,6 +646,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.purpleAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/lunch.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -630,6 +676,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.amber,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/krahi.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -657,6 +706,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.amberAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/brkt.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -684,6 +736,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.blueGrey,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/jheel.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -711,6 +766,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.brown,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/cnic.2.jpg'),
+                          fit:BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -738,6 +796,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.cyan,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/imei.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -765,6 +826,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.blueAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/catselfi.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -792,6 +856,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.cyanAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/catselfi.2.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -819,6 +886,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.deepOrange,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/dark..jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -846,6 +916,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.greenAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/meme.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -873,6 +946,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.lightGreenAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/meme.2.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -900,6 +976,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.indigo,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/meme.3.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -927,6 +1006,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.indigoAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/meme.4.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -954,6 +1036,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.orange,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/ffmeme.1.jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -981,6 +1066,9 @@ class MyApp extends StatelessWidget {
                           color: Colors.yellowAccent,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          image: DecorationImage(image: AssetImage('assests/pikaa..jpg'),
+                          fit: BoxFit.cover
+                          )
                         ),
                       ),
                       SizedBox(
@@ -1008,6 +1096,7 @@ class MyApp extends StatelessWidget {
                           color: Colors.lime,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
+                          
                         ),
                       ),
                       SizedBox(
