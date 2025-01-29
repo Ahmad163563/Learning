@@ -7,15 +7,22 @@ class Messengerscreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.black,
         leading: CircleAvatar(
           radius: 10,
           child: Icon(Icons.menu, size: 20,),
         ),
         title: Text('Chats', style: TextStyle(
           fontWeight: FontWeight.bold,
-          color: Colors.black,
+          color: Colors.white,
         ),),
+        actions: [
+          CircleAvatar(
+            child: Icon(Icons.nest_cam_wired_stand),
+          )
+        ],
       ),
+
     );
   }
 }
