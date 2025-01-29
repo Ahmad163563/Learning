@@ -1096,7 +1096,7 @@ class MyApp extends StatelessWidget {
                           color: Colors.lime,
                           borderRadius: BorderRadius.circular(10),
                           border: Border.all(),
-                          image: DecorationImage(image: AssetImage('assets/meme.2.jpg'),
+                          image: DecorationImage(image: AssetImage('assests/meme.2.jpg'),
                           fit: BoxFit.cover
                           )
                         ),
