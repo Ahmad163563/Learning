@@ -22,6 +22,64 @@ class Messengerscreen extends StatelessWidget {
           )
         ],
       ),
+         body:
+             
+        Column(
+          children: [
+            SizedBox(height: 10,),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  height: 30,
+                  width: 400,
+                  decoration: BoxDecoration(
+                    color: Colors.grey,
+                    borderRadius: BorderRadius.circular(20),
+                    border: Border.all()
+                  ),
+                  child: Row(
+
+                    children: [
+                      SizedBox(width: 10,),
+                      Icon(Icons.search),
+                      SizedBox(width: 5,),
+                      Text('Search')
+                    ],
+                  ),
+                  )
+              ],
+            ),
+            SizedBox(height: 10,),
+
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  SizedBox(width: 10,),
+                  CircleAvatar(radius: 50,backgroundImage: AssetImage('assests/catselfi.1.jpg'),),
+                  CircleAvatar(radius: 50, backgroundImage: AssetImage('assests/Dark wolf.jpg'),),
+                  CircleAvatar(radius: 50, backgroundImage: AssetImage('assests/dark..jpg'),),
+                  CircleAvatar(radius: 50,backgroundImage: AssetImage('assests/dead walpaper.jpg'),),
+                  CircleAvatar(radius: 50,backgroundImage: AssetImage('assests/ff.1.jpg'),),
+                ],
+              ),
+            ),
+            Row(
+              children: [
+                CircleAvatar(),
+                Column(
+                  children: [
+                    Text('Shamaz khan',style: TextStyle(
+                      letterSpacing:
+                    ),)
+                  ],
+                )
+              ],
+            )
+          ],
+        )
 
     );
   }
