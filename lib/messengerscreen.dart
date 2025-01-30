@@ -69,33 +69,33 @@ class Messengerscreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     SizedBox(
-                      width: 10,
+                      width: 7,
                     ),
                     CircleAvatar(
-                      radius: 50,
+                      radius: 40,
                       backgroundImage: AssetImage('assests/catselfi.1.jpg'),
                     ),
                     CircleAvatar(
-                      radius: 50,
+                      radius: 40,
                       backgroundImage: AssetImage('assests/Dark wolf.jpg'),
                     ),
                     CircleAvatar(
-                      radius: 50,
+                      radius: 40,
                       backgroundImage: AssetImage('assests/dark..jpg'),
                     ),
                     CircleAvatar(
-                      radius: 50,
+                      radius: 40,
                       backgroundImage: AssetImage('assests/dead walpaper.jpg'),
                     ),
                     CircleAvatar(
-                      radius: 50,
+                      radius: 40,
                       backgroundImage: AssetImage('assests/ff.1.jpg'),
                     ),
                   ],
                 ),
               ),
               SizedBox(
-                height: 15,
+                height: 12,
               ),
               Row(
                 children: [
@@ -112,12 +112,15 @@ class Messengerscreen extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Shamaz'),
+                      Text('Shamaz',style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black87
+                      ),),
                       SizedBox(
                         width: 2,
                       ),
                       Text(
-                        'you sent an attachment',
+                        'you: https//xyz.com',
                         style: TextStyle(
                           letterSpacing: 2,
                         ),
@@ -144,7 +147,11 @@ class Messengerscreen extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Shabaz'),
+                      Text('Shabaz',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black87
+                      ),),
                       SizedBox(
                         width: 2,
                       ),
@@ -176,12 +183,14 @@ class Messengerscreen extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Mahaz'),
+                      Text('Mahaz',style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),),
                       SizedBox(
                         width: 2,
                       ),
                       Text(
-                        'you sent an attachment',
+                        'Mahaz sent an attachment',
                         style: TextStyle(
                           letterSpacing: 2,
                         ),
@@ -208,12 +217,14 @@ class Messengerscreen extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Hasnain'),
+                      Text('Hasnain',style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),),
                       SizedBox(
                         width: 2,
                       ),
                       Text(
-                        'you sent an attachment',
+                        'Hello',
                         style: TextStyle(
                           letterSpacing: 2,
                         ),
@@ -240,12 +251,15 @@ class Messengerscreen extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Usama'),
+                      Text('Usama',style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black87
+                      ),),
                       SizedBox(
                         width: 2,
                       ),
                       Text(
-                        'you sent an attachment',
+                        'Missed Call',
                         style: TextStyle(
                           letterSpacing: 2,
                         ),
@@ -269,7 +283,11 @@ class Messengerscreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Column(
-                      children: [Icon(Icons.chat), Text('Chat')],
+                      children: [
+                        SizedBox(height: 2,),
+                        Icon(Icons.chat),
+                        SizedBox(height: 2,),
+                        Text('Chat')],
                     ),
                     Column(
                       children: [
