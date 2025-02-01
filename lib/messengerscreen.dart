@@ -91,14 +91,25 @@ class Messengerscreen extends StatelessWidget {
                         ],
                       ),
                       SizedBox(width: 5,),
-                      CircleAvatar(
-                        radius: 40,
-                        backgroundImage: AssetImage('assests/dead walpaper.jpg'),
+                      Column(
+                        children: [
+                          CircleAvatar(
+                            radius: 40,
+                            backgroundImage: AssetImage('assests/dead walpaper.jpg'),
+                          ),
+                          Text('Salman')
+                        ],
                       ),
                       SizedBox(width: 5,),
-                      CircleAvatar(
-                        radius: 40,
-                        backgroundImage: AssetImage('assests/ff.1.jpg'),
+                      
+                      Column(
+                        children: [
+                          CircleAvatar(
+                            radius: 40,
+                            backgroundImage: AssetImage('assests/ff.1.jpg'),
+                          ),
+                          Text('Amir')
+                        ],
                       ),
                       SizedBox(width: 5,),
                       CircleAvatar(
