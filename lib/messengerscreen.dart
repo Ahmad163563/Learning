@@ -70,14 +70,26 @@ class Messengerscreen extends StatelessWidget {
 
                     children: [
                       SizedBox(width: 15,),
-                      CircleAvatar(
-                        radius: 40,
-                        backgroundImage: AssetImage('assests/catselfi.1.jpg'),
+                      
+                      Column(
+                        children: [
+                          CircleAvatar(
+                            radius: 40,
+                            backgroundImage: AssetImage('assests/catselfi.1.jpg'),
+                          ),
+                          Text('Your story')
+                        ],
                       ),
                       SizedBox(width: 5,),
-                      CircleAvatar(
-                        radius: 40,
-                        backgroundImage: AssetImage('assests/Dark wolf.jpg'),
+                      
+                      Column(
+                        children: [
+                          CircleAvatar(
+                            radius: 40,
+                            backgroundImage: AssetImage('assests/Dark wolf.jpg'),
+                          ),
+                          Text('Mahaz')
+                        ],
                       ),
                       SizedBox(width: 5,),
                       Column(
@@ -112,9 +124,15 @@ class Messengerscreen extends StatelessWidget {
                         ],
                       ),
                       SizedBox(width: 5,),
-                      CircleAvatar(
-                        radius: 40,
-                        backgroundImage: AssetImage('assests/catselfi.2.jpg'),
+                      
+                      Column(
+                        children: [
+                          CircleAvatar(
+                            radius: 40,
+                            backgroundImage: AssetImage('assests/catselfi.2.jpg'),
+                          ),
+                          Text('Asfand')
+                        ],
                       )
                     ],
                   ),
