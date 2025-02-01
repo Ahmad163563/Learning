@@ -63,37 +63,46 @@ class Messengerscreen extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
+
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    SizedBox(
-                      width: 7,
-                    ),
-                    CircleAvatar(
-                      radius: 40,
-                      backgroundImage: AssetImage('assests/catselfi.1.jpg'),
-                    ),
-                    CircleAvatar(
-                      radius: 40,
-                      backgroundImage: AssetImage('assests/Dark wolf.jpg'),
-                    ),
-                    CircleAvatar(
-                      radius: 40,
-                      backgroundImage: AssetImage('assests/dark..jpg'),
-                    ),
-                    CircleAvatar(
-                      radius: 40,
-                      backgroundImage: AssetImage('assests/dead walpaper.jpg'),
-                    ),
-                    CircleAvatar(
-                      radius: 40,
-                      backgroundImage: AssetImage('assests/ff.1.jpg'),
-                    ),
-                  ],
-                ),
+
+                    children: [
+                      SizedBox(width: 15,),
+                      CircleAvatar(
+                        radius: 40,
+                        backgroundImage: AssetImage('assests/catselfi.1.jpg'),
+                      ),
+                      SizedBox(width: 5,),
+                      CircleAvatar(
+                        radius: 40,
+                        backgroundImage: AssetImage('assests/Dark wolf.jpg'),
+                      ),
+                      SizedBox(width: 5,),
+                      CircleAvatar(
+                        radius: 40,
+                        backgroundImage: AssetImage('assests/dark..jpg'),
+                      ),
+                      SizedBox(width: 5,),
+                      CircleAvatar(
+                        radius: 40,
+                        backgroundImage: AssetImage('assests/dead walpaper.jpg'),
+                      ),
+                      SizedBox(width: 5,),
+                      CircleAvatar(
+                        radius: 40,
+                        backgroundImage: AssetImage('assests/ff.1.jpg'),
+                      ),
+                      SizedBox(width: 5,),
+                      CircleAvatar(
+                        radius: 40,
+                        backgroundImage: AssetImage('assests/catselfi.2.jpg'),
+                      )
+                    ],
+                  ),
               ),
+
               SizedBox(
                 height: 12,
               ),
@@ -291,12 +300,18 @@ class Messengerscreen extends StatelessWidget {
                     ),
                     Column(
                       children: [
+                        //SizedBox(height: 1,),
                         Icon(Icons.person_2),
+                        SizedBox(height: 2,),
                         Text('Group'),
                       ],
                     ),
                     Column(
-                      children: [Icon(Icons.web_stories), Text('stories')],
+                      children: [
+                        SizedBox(height: 2,),
+                        Icon(Icons.web_stories),
+                        SizedBox(height: 2,),
+                        Text('stories')],
                     )
                   ],
                 ),
