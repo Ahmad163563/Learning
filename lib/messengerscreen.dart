@@ -8,11 +8,15 @@ class Messengerscreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.black,
-          leading: CircleAvatar(
-            radius: 10,
-            child: Icon(
-              Icons.menu,
-              size: 20,
+          leading:
+
+          SizedBox(width: 10,
+            child: CircleAvatar(
+              radius: 50,
+              child: Icon(
+                Icons.menu,
+                size: 30,
+              ),
             ),
           ),
           title: Text(
