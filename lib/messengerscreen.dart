@@ -63,81 +63,86 @@ class Messengerscreen extends StatelessWidget {
               SizedBox(
                 height: 10,
               ),
-
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
-
-                    children: [
-                      SizedBox(width: 15,),
-                      
-                      Column(
-                        children: [
-                          CircleAvatar(
-                            radius: 40,
-                            backgroundImage: AssetImage('assests/catselfi.1.jpg'),
-                          ),
-                          Text('Your story')
-                        ],
-                      ),
-                      SizedBox(width: 5,),
-                      
-                      Column(
-                        children: [
-                          CircleAvatar(
-                            radius: 40,
-                            backgroundImage: AssetImage('assests/Dark wolf.jpg'),
-                          ),
-                          Text('Mahaz')
-                        ],
-                      ),
-                      SizedBox(width: 5,),
-                      Column(
-                        children: [
-
-                          CircleAvatar(
-                            radius: 40,
-                            backgroundImage: AssetImage('assests/dark..jpg'),
-                          ),
-                          Text('Afnan')
-                        ],
-                      ),
-                      SizedBox(width: 5,),
-                      Column(
-                        children: [
-                          CircleAvatar(
-                            radius: 40,
-                            backgroundImage: AssetImage('assests/dead walpaper.jpg'),
-                          ),
-                          Text('Salman')
-                        ],
-                      ),
-                      SizedBox(width: 5,),
-                      
-                      Column(
-                        children: [
-                          CircleAvatar(
-                            radius: 40,
-                            backgroundImage: AssetImage('assests/ff.1.jpg'),
-                          ),
-                          Text('Amir')
-                        ],
-                      ),
-                      SizedBox(width: 5,),
-                      
-                      Column(
-                        children: [
-                          CircleAvatar(
-                            radius: 40,
-                            backgroundImage: AssetImage('assests/catselfi.2.jpg'),
-                          ),
-                          Text('Asfand')
-                        ],
-                      )
-                    ],
-                  ),
+                  children: [
+                    SizedBox(
+                      width: 15,
+                    ),
+                    Column(
+                      children: [
+                        CircleAvatar(
+                          radius: 40,
+                          backgroundImage: AssetImage('assests/catselfi.1.jpg'),
+                        ),
+                        Text('Your story')
+                      ],
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    Column(
+                      children: [
+                        CircleAvatar(
+                          radius: 40,
+                          backgroundImage: AssetImage('assests/Dark wolf.jpg'),
+                        ),
+                        Text('Mahaz')
+                      ],
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    Column(
+                      children: [
+                        CircleAvatar(
+                          radius: 40,
+                          backgroundImage: AssetImage('assests/dark..jpg'),
+                        ),
+                        Text('Afnan')
+                      ],
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    Column(
+                      children: [
+                        CircleAvatar(
+                          radius: 40,
+                          backgroundImage:
+                              AssetImage('assests/dead walpaper.jpg'),
+                        ),
+                        Text('Salman')
+                      ],
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    Column(
+                      children: [
+                        CircleAvatar(
+                          radius: 40,
+                          backgroundImage: AssetImage('assests/ff.1.jpg'),
+                        ),
+                        Text('Amir')
+                      ],
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    Column(
+                      children: [
+                        CircleAvatar(
+                          radius: 40,
+                          backgroundImage: AssetImage('assests/catselfi.2.jpg'),
+                        ),
+                        Text('Asfand')
+                      ],
+                    )
+                  ],
+                ),
               ),
-
               SizedBox(
                 height: 15,
               ),
@@ -156,10 +161,11 @@ class Messengerscreen extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Shamaz',style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black87
-                      ),),
+                      Text(
+                        'Shamaz',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, color: Colors.black87),
+                      ),
                       SizedBox(
                         width: 2,
                       ),
@@ -169,11 +175,11 @@ class Messengerscreen extends StatelessWidget {
                           letterSpacing: 2,
                         ),
                       ),
-                      
                     ],
-
                   ),
-                  SizedBox(width: 180,),
+                  SizedBox(
+                    width: 180,
+                  ),
                   Text('Yesterday')
                 ],
               ),
@@ -195,11 +201,11 @@ class Messengerscreen extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Shabaz',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black87
-                      ),),
+                      Text(
+                        'Shabaz',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, color: Colors.black87),
+                      ),
                       SizedBox(
                         width: 2,
                       ),
@@ -211,7 +217,9 @@ class Messengerscreen extends StatelessWidget {
                       )
                     ],
                   ),
-                  SizedBox(width: 170,),
+                  SizedBox(
+                    width: 170,
+                  ),
                   Text('Jan 21')
                 ],
               ),
@@ -233,9 +241,12 @@ class Messengerscreen extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Mahaz',style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                      ),),
+                      Text(
+                        'Mahaz',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                       SizedBox(
                         width: 2,
                       ),
@@ -247,7 +258,9 @@ class Messengerscreen extends StatelessWidget {
                       )
                     ],
                   ),
-                  SizedBox(width: 147,),
+                  SizedBox(
+                    width: 147,
+                  ),
                   Text('Jan 25')
                 ],
               ),
@@ -269,9 +282,12 @@ class Messengerscreen extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Hasnain',style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                      ),),
+                      Text(
+                        'Hasnain',
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
                       SizedBox(
                         width: 2,
                       ),
@@ -283,7 +299,9 @@ class Messengerscreen extends StatelessWidget {
                       )
                     ],
                   ),
-                  SizedBox(width: 310,),
+                  SizedBox(
+                    width: 310,
+                  ),
                   Text('Jan 28')
                 ],
               ),
@@ -305,10 +323,11 @@ class Messengerscreen extends StatelessWidget {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Usama',style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Colors.black87
-                      ),),
+                      Text(
+                        'Usama',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold, color: Colors.black87),
+                      ),
                       SizedBox(
                         width: 2,
                       ),
@@ -320,7 +339,9 @@ class Messengerscreen extends StatelessWidget {
                       )
                     ],
                   ),
-                  SizedBox(width: 270,),
+                  SizedBox(
+                    width: 270,
+                  ),
                   Text('Feb 22')
                 ],
               ),
@@ -340,25 +361,37 @@ class Messengerscreen extends StatelessWidget {
                   children: [
                     Column(
                       children: [
-                        SizedBox(height: 2,),
+                        SizedBox(
+                          height: 2,
+                        ),
                         Icon(Icons.chat),
-                        SizedBox(height: 2,),
-                        Text('Chat')],
+                        SizedBox(
+                          height: 2,
+                        ),
+                        Text('Chat')
+                      ],
                     ),
                     Column(
                       children: [
                         //SizedBox(height: 1,),
                         Icon(Icons.person_2),
-                        SizedBox(height: 2,),
+                        SizedBox(
+                          height: 2,
+                        ),
                         Text('Group'),
                       ],
                     ),
                     Column(
                       children: [
-                        SizedBox(height: 2,),
+                        SizedBox(
+                          height: 2,
+                        ),
                         Icon(Icons.web_stories),
-                        SizedBox(height: 2,),
-                        Text('stories')],
+                        SizedBox(
+                          height: 2,
+                        ),
+                        Text('stories')
+                      ],
                     )
                   ],
                 ),
