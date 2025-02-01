@@ -80,9 +80,15 @@ class Messengerscreen extends StatelessWidget {
                         backgroundImage: AssetImage('assests/Dark wolf.jpg'),
                       ),
                       SizedBox(width: 5,),
-                      CircleAvatar(
-                        radius: 40,
-                        backgroundImage: AssetImage('assests/dark..jpg'),
+                      Column(
+                        children: [
+
+                          CircleAvatar(
+                            radius: 40,
+                            backgroundImage: AssetImage('assests/dark..jpg'),
+                          ),
+                          Text('Afnan')
+                        ],
                       ),
                       SizedBox(width: 5,),
                       CircleAvatar(
@@ -104,7 +110,7 @@ class Messengerscreen extends StatelessWidget {
               ),
 
               SizedBox(
-                height: 12,
+                height: 15,
               ),
               Row(
                 children: [
@@ -133,9 +139,13 @@ class Messengerscreen extends StatelessWidget {
                         style: TextStyle(
                           letterSpacing: 2,
                         ),
-                      )
+                      ),
+                      
                     ],
-                  )
+
+                  ),
+                  SizedBox(width: 180,),
+                  Text('Yesterday')
                 ],
               ),
               SizedBox(
@@ -148,7 +158,7 @@ class Messengerscreen extends StatelessWidget {
                   ),
                   CircleAvatar(
                     radius: 30,
-                    backgroundImage: AssetImage('assests/SUKUNA.jpg'),
+                    backgroundImage: AssetImage('assests/SUKUNA.jpeg'),
                   ),
                   SizedBox(
                     width: 3,
@@ -171,7 +181,9 @@ class Messengerscreen extends StatelessWidget {
                         ),
                       )
                     ],
-                  )
+                  ),
+                  SizedBox(width: 170,),
+                  Text('Jan 21')
                 ],
               ),
               SizedBox(
@@ -184,7 +196,7 @@ class Messengerscreen extends StatelessWidget {
                   ),
                   CircleAvatar(
                     radius: 30,
-                    backgroundImage: AssetImage('assests/shurim.jpg'),
+                    backgroundImage: AssetImage('assests/shurim..jpg'),
                   ),
                   SizedBox(
                     width: 3,
@@ -205,7 +217,9 @@ class Messengerscreen extends StatelessWidget {
                         ),
                       )
                     ],
-                  )
+                  ),
+                  SizedBox(width: 147,),
+                  Text('Jan 25')
                 ],
               ),
               SizedBox(
@@ -239,7 +253,9 @@ class Messengerscreen extends StatelessWidget {
                         ),
                       )
                     ],
-                  )
+                  ),
+                  SizedBox(width: 310,),
+                  Text('Jan 28')
                 ],
               ),
               SizedBox(
@@ -274,7 +290,9 @@ class Messengerscreen extends StatelessWidget {
                         ),
                       )
                     ],
-                  )
+                  ),
+                  SizedBox(width: 270,),
+                  Text('Feb 22')
                 ],
               ),
               SizedBox(
