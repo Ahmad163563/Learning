@@ -14,20 +14,28 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-          body: Column(
-            children: [
-              Container(
-                height: 5,
-                width: 10,
+            body: Column(
+          children: [
+            SizedBox(
+              height: 200,
+            ),
+            Center(
+              child: Container(
+                height: 50,
+                width: 100,
                 decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(3),
-                  color: Colors.red
-                ),
-                child: TextButton(onPressed: (){}, child: Text('Add',style: TextStyle(color: Colors.white),)),
-              )
-            ],
-          )
-        )
+                    borderRadius: BorderRadius.circular(3),
+                    color: Colors.lightBlue),
+                child: TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      'Add',
+                      style: TextStyle(color: Colors.white),
+                    )),
+              ),
+            )
+          ],
+        ))
         // Scaffold(
         //   body:
         //   Column(
@@ -140,8 +148,7 @@ class MyApp extends StatelessWidget {
         //   )
         // )
 
-    // );
-    );
-    }
-
+        // );
+        );
+  }
 }
