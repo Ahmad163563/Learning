@@ -77,7 +77,7 @@ class Messengerscreen extends StatelessWidget {
                     Column(
                       children: [
                         CircleAvatar(
-                          radius: 30,
+                          radius: 50,
                           backgroundImage: AssetImage('assests/catselfi.1.jpg'),
                         ),
                         Text('Your story')
