@@ -13,7 +13,21 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Messengerscreen();
+        home: Scaffold(
+          body: Column(
+            children: [
+              Container(
+                height: 5,
+                width: 10,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(3),
+                  color: Colors.red
+                ),
+                child: TextButton(onPressed: (){}, child: Text('Add',style: TextStyle(color: Colors.white),)),
+              )
+            ],
+          )
+        )
         // Scaffold(
         //   body:
         //   Column(
@@ -127,6 +141,7 @@ class MyApp extends StatelessWidget {
         // )
 
     // );
+    );
     }
 
 }
