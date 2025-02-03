@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
           body:
             Column(
               children: [
+                SizedBox(height: 5,),
                 Container(
                   height: 70,
                     width: 400,
@@ -99,7 +100,8 @@ class MyApp extends StatelessWidget {
                         fontWeight: FontWeight.w500,
                         color: Colors.white
                     ),))
-                )
+                ),
+
               ],
             )
           ),
