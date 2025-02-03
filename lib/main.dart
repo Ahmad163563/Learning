@@ -17,29 +17,37 @@ class MyApp extends StatelessWidget {
             body: Column(
           children: [
             SizedBox(
-              height: 200,
+              height: 50,
             ),
-            Center(
-              child: Container(
-                height: 50,
-                width: 100,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(3),
-                    color: Colors.lightBlue),
-                child: TextButton(
-                    onPressed: () {},
-                    child: Text(
-                      'Add',
-                      style: TextStyle(color: Colors.white),
-                    )),
-              ),
+            Container(
+              height: 50,
+              width: 100,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(3),
+                  color: Colors.lightBlue),
+              child: TextButton(
+                  onPressed: () {},
+                  child: Text(
+                    'Add',
+                    style: TextStyle(color: Colors.white),
+                  )),
             ),
-            IconButton(onPressed: (){
-              int a=10;
-              int b=5;
-              int add=a+b;
-              print("add=$add");
-            }, icon: Icon(Icons.add_box_outlined))
+            IconButton(
+                onPressed: () {
+                  int a = 10;
+                  int b = 5;
+                  int add = a + b;
+                  print("add=$add");
+                },
+                icon: Icon(Icons.add_box_outlined)),
+            CircleAvatar(
+              child: TextButton(onPressed: (){
+                int a=20;
+                int b=10;
+                int add= a+b;
+                print("add=$add");
+              }, child: Icon(Icons.add)),
+            )
           ],
         ))
         // Scaffold(
