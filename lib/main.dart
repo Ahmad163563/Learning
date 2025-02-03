@@ -44,10 +44,10 @@ class MyApp extends StatelessWidget {
                 Container(
                     height: 70,
                     width: 400,
-                    color: Colors.purple,
+                    color: Colors.red,
                     child: TextButton(onPressed: (){
-                      print('Property of Scaffold\nbackgroundColor\nbody\nappbar');
-                    }, child: Text('', style: TextStyle(
+                      print('Property of CircleAvator\nbackgroundimage\nbacckgroundcolor\nradius');
+                    }, child: Text('CircleAvator', style: TextStyle(
                         fontWeight: FontWeight.w500,
                         color: Colors.white
                     ),))
@@ -56,10 +56,10 @@ class MyApp extends StatelessWidget {
                 Container(
                     height: 70,
                     width: 400,
-                    color: Colors.purple,
+                    color: Colors.amber,
                     child: TextButton(onPressed: (){
-                      print('Property of Scaffold\nbackgroundColor\nbody\nappbar');
-                    }, child: Text('Scaffold', style: TextStyle(
+                      print('Property of BoxDecoration\ncolor\nborderradius\nborder\nimage');
+                    }, child: Text('BoxDecoration', style: TextStyle(
                         fontWeight: FontWeight.w500,
                         color: Colors.white
                     ),))
@@ -68,10 +68,10 @@ class MyApp extends StatelessWidget {
                 Container(
                     height: 70,
                     width: 400,
-                    color: Colors.purple,
+                    color: Colors.black87,
                     child: TextButton(onPressed: (){
-                      print('Property of Scaffold\nbackgroundColor\nbody\nappbar');
-                    }, child: Text('Scaffold', style: TextStyle(
+                      print('Property of TextStyle\nfontweight\nwordspacing\nletterspacing\ncolor\nfontsize');
+                    }, child: Text('TextStyle', style: TextStyle(
                         fontWeight: FontWeight.w500,
                         color: Colors.white
                     ),))
@@ -80,10 +80,22 @@ class MyApp extends StatelessWidget {
                 Container(
                     height: 70,
                     width: 400,
-                    color: Colors.purple,
+                    color: Colors.green,
                     child: TextButton(onPressed: (){
-                      print('Property of Scaffold\nbackgroundColor\nbody\nappbar');
-                    }, child: Text('Scaffold', style: TextStyle(
+                      print('Property of Icon\nicon\ncolor\nsize');
+                    }, child: Text('Icon', style: TextStyle(
+                        fontWeight: FontWeight.w500,
+                        color: Colors.white
+                    ),))
+                ),
+                SizedBox(height: 5,),
+                Container(
+                    height: 70,
+                    width: 400,
+                    color: Colors.orange,
+                    child: TextButton(onPressed: (){
+                      print('Property of Row/Column\nchildren\ncrossaxisalignment\nmainaxisalingment');
+                    }, child: Text('Row/Column', style: TextStyle(
                         fontWeight: FontWeight.w500,
                         color: Colors.white
                     ),))
