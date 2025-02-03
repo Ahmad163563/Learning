@@ -33,7 +33,13 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(color: Colors.white),
                     )),
               ),
-            )
+            ),
+            IconButton(onPressed: (){
+              int a=10;
+              int b=5;
+              int add=a+b;
+              print("add=$add");
+            }, icon: Icon(Icons.add_box_outlined))
           ],
         ))
         // Scaffold(
