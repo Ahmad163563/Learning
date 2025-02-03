@@ -15,7 +15,81 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: Scaffold(
           body:
-          Text('tt'),
+            Column(
+              children: [
+                Container(
+                  height: 70,
+                    width: 400,
+                  color: Colors.purple,
+                  child: TextButton(onPressed: (){
+                    print('Property of Scaffold\nbackgroundColor\nbody\nappbar');
+                  }, child: Text('Scaffold', style: TextStyle(
+                    fontWeight: FontWeight.w500,
+                    color: Colors.white
+                  ),))
+                ),
+                SizedBox(height: 5,),
+                Container(
+                    height: 70,
+                    width: 400,
+                    color: Colors.blue,
+                    child: TextButton(onPressed: (){
+                      print('Property of Container\nheight\nwidth\ncolor\ndecoration');
+                    }, child: Text('Container', style: TextStyle(
+                        fontWeight: FontWeight.w500,
+                        color: Colors.white
+                    ),))
+                ),
+                SizedBox(height: 5,),
+                Container(
+                    height: 70,
+                    width: 400,
+                    color: Colors.purple,
+                    child: TextButton(onPressed: (){
+                      print('Property of Scaffold\nbackgroundColor\nbody\nappbar');
+                    }, child: Text('', style: TextStyle(
+                        fontWeight: FontWeight.w500,
+                        color: Colors.white
+                    ),))
+                ),
+                SizedBox(height: 5,),
+                Container(
+                    height: 70,
+                    width: 400,
+                    color: Colors.purple,
+                    child: TextButton(onPressed: (){
+                      print('Property of Scaffold\nbackgroundColor\nbody\nappbar');
+                    }, child: Text('Scaffold', style: TextStyle(
+                        fontWeight: FontWeight.w500,
+                        color: Colors.white
+                    ),))
+                ),
+                SizedBox(height: 5,),
+                Container(
+                    height: 70,
+                    width: 400,
+                    color: Colors.purple,
+                    child: TextButton(onPressed: (){
+                      print('Property of Scaffold\nbackgroundColor\nbody\nappbar');
+                    }, child: Text('Scaffold', style: TextStyle(
+                        fontWeight: FontWeight.w500,
+                        color: Colors.white
+                    ),))
+                ),
+                SizedBox(height: 5,),
+                Container(
+                    height: 70,
+                    width: 400,
+                    color: Colors.purple,
+                    child: TextButton(onPressed: (){
+                      print('Property of Scaffold\nbackgroundColor\nbody\nappbar');
+                    }, child: Text('Scaffold', style: TextStyle(
+                        fontWeight: FontWeight.w500,
+                        color: Colors.white
+                    ),))
+                )
+              ],
+            )
           ),
 
 
