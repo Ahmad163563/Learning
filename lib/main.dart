@@ -14,42 +14,14 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         home: Scaffold(
-            body: Column(
-          children: [
-            SizedBox(
-              height: 50,
-            ),
-            Container(
-              height: 50,
-              width: 100,
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(3),
-                  color: Colors.lightBlue),
-              child: TextButton(
-                  onPressed: () {},
-                  child: Text(
-                    'Add',
-                    style: TextStyle(color: Colors.white),
-                  )),
-            ),
-            IconButton(
-                onPressed: () {
-                  int a = 10;
-                  int b = 5;
-                  int add = a + b;
-                  print("add=$add");
-                },
-                icon: Icon(Icons.add_box_outlined)),
-            CircleAvatar(
-              child: TextButton(onPressed: (){
-                int a=20;
-                int b=10;
-                int add= a+b;
-                print("add=$add");
-              }, child: Icon(Icons.add)),
-            )
-          ],
-        ))
+          body:
+          Text('tt'),
+          ),
+
+
+
+    
+    
         // Scaffold(
         //   body:
         //   Column(
