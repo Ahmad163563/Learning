@@ -153,6 +153,30 @@ class MyApp extends StatelessWidget {
                             color: Colors.white
                         ),))
                     ),
+                    SizedBox(height: 5,),
+                    Container(
+                        height: 70,
+                        width: 400,
+                        color: Colors.blueGrey,
+                        child: TextButton(onPressed: (){
+                          print('Property of Text\nstyle');
+                        }, child: Text('Text', style: TextStyle(
+                            fontWeight: FontWeight.w500,
+                            color: Colors.white
+                        ),))
+                    ),
+                    SizedBox(height: 5,),
+                    Container(
+                        height: 70,
+                        width: 400,
+                        color: Colors.indigo,
+                        child: TextButton(onPressed: (){
+                          print('Property of TextButton\nonPressed\nprint');
+                        }, child: Text('TextButton', style: TextStyle(
+                            fontWeight: FontWeight.w500,
+                            color: Colors.white
+                        ),))
+                    ),
                   ],
                 ),
               ),
