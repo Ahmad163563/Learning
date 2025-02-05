@@ -66,7 +66,12 @@ class Whatsappscreen extends StatelessWidget {
                       style: TextStyle(
                           fontWeight: FontWeight.bold, color: Colors.white),
                     ),
-                    SizedBox(width: 100),
+                    SizedBox(width: 5,),
+                    CircleAvatar(
+                      radius: 7,
+                      child: Text('7',style: TextStyle(fontSize: 10,color: Colors.black),),
+                    ),
+                    SizedBox(width: 80),
                     Text(
                       'Contacts',
                       style: TextStyle(
@@ -86,9 +91,10 @@ class Whatsappscreen extends StatelessWidget {
             ),
           ),
           ListTile(
-            title: CircleAvatar(),
-            subtitle: Text('data'),
-            trailing: Text('data'),
+            leading: CircleAvatar(backgroundImage: AssetImage('assests/catselfi.1.jpg'),),
+            title: Text('Pet',style: TextStyle(fontWeight: FontWeight.bold),),
+            subtitle: Text('Hello'),
+            trailing: Text('todaay'),
           )
         ],
       ),
