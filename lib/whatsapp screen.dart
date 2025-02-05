@@ -94,8 +94,7 @@ class Whatsappscreen extends StatelessWidget {
               ],
             ),
           ),
-          
-          S
+          SizedBox(height:10),
           ListTile(
             leading: CircleAvatar(
               radius:30,
