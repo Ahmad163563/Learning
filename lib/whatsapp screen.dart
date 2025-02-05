@@ -11,7 +11,7 @@ class Whatsappscreen extends StatelessWidget {
       Column(
         children: [
           Container(
-            height: 170,
+            height: 180,
             width: 500,
             color: Colors.green,
             child: Column(
@@ -62,30 +62,30 @@ class Whatsappscreen extends StatelessWidget {
                     Text(
                       'Calls',
                       style: TextStyle(
+                        fontSize: 18,
                           fontWeight: FontWeight.bold, color: Colors.white),
                     ),
-                    SizedBox(width: 110),
+                    SizedBox(width: 90),
                     Text(
                       'Chats',
                       style: TextStyle(
+                        fontSize: 20,
                           fontWeight: FontWeight.bold, color: Colors.white),
                     ),
-                    SizedBox(width: 5,),
-                    CircleAvatar(
-                      radius: 7,
-                      child: Text('7',style: TextStyle(fontSize: 10,color: Colors.black),),
-                    ),
+
                     SizedBox(width: 80),
                     Text(
                       'Contacts',
                       style: TextStyle(
+                        fontSize: 15,
                           fontWeight: FontWeight.bold, color: Colors.white),
                     ),
                   ],
                 ),
                 SizedBox(
-                  height: 7,
+                  height: 8,
                 ),
+                SizedBox(width: 20,),
                 Container(
                   height: 3,
                   width: 100,
