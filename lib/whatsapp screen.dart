@@ -94,54 +94,64 @@ class Whatsappscreen extends StatelessWidget {
               ],
             ),
           ),
+          
+          S
           ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assests/catselfi.1.jpg'),),
+            leading: CircleAvatar(
+              radius:30,
+              backgroundImage: AssetImage('assests/catselfi.1.jpg'),),
             title: Text('Pet',style: TextStyle(fontWeight: FontWeight.bold),),
             subtitle: Text('Hello'),
             trailing: Text('Today'),
           ),
           ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assests/dark..jpg'),),
+            leading: CircleAvatar(
+              radius:30,
+              backgroundImage: AssetImage('assests/dark..jpg'),),
             title: Text('Khan',style: TextStyle(fontWeight: FontWeight.bold),),
             subtitle: Text('whatsup'),
             trailing: Text('9h'),
           ),
           ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assests/Dark wolf.jpg'),),
+            leading: CircleAvatar(
+              radius:30,
+              backgroundImage: AssetImage('assests/Dark wolf.jpg'),),
             title: Text('Asfand',style: TextStyle(fontWeight: FontWeight.bold),),
             subtitle: Text('lets meet now'),
             trailing: Text('12h'),
           ),
           ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assests/dead walpaper.jpg'),),
+            leading: CircleAvatar(
+              radius:30,
+              backgroundImage: AssetImage('assests/dead walpaper.jpg'),),
             title: Text('Usman',style: TextStyle(fontWeight: FontWeight.bold),),
             subtitle: Text('Call me when free'),
             trailing: Text('Yesterday'),
           ),
           ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assests/pikaa..jpg'),),
+            leading: CircleAvatar(
+              radius:30,
+              backgroundImage: AssetImage('assests/pikaa..jpg'),),
             title: Text('Sheri',style: TextStyle(fontWeight: FontWeight.bold),),
             subtitle: Text('Where are you'),
             trailing: Text('2d ago'),
           ),
           ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assests/SUKUNA.jpeg'),),
-            title: Text('Pet',style: TextStyle(fontWeight: FontWeight.bold),),
-            subtitle: Text('Hello'),
-            trailing: Text('todaay'),
+            leading: CircleAvatar(
+              radius:30,
+              backgroundImage: AssetImage('assests/SUKUNA.jpeg'),),
+            title: Text('Anny',style: TextStyle(fontWeight: FontWeight.bold),),
+            subtitle: Text('Come online'),
+            trailing: Text('3d ago'),
           ),
           ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assests/catselfi.1.jpg'),),
-            title: Text('Pet',style: TextStyle(fontWeight: FontWeight.bold),),
-            subtitle: Text('Hello'),
-            trailing: Text('todaay'),
+            leading: CircleAvatar(
+              radius:30,
+              backgroundImage: AssetImage('assests/sukuna12.jpg'),),
+            title: Text('Jason',style: TextStyle(fontWeight: FontWeight.bold),),
+            subtitle: Text('Leaving'),
+            trailing: Text('12/12/2020'),
           ),
-          ListTile(
-            leading: CircleAvatar(backgroundImage: AssetImage('assests/catselfi.1.jpg'),),
-            title: Text('Pet',style: TextStyle(fontWeight: FontWeight.bold),),
-            subtitle: Text('Hello'),
-            trailing: Text('todaay'),
-          )
         ],
       ),
     );
