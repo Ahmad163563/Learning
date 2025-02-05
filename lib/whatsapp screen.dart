@@ -6,7 +6,9 @@ class Whatsappscreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+      body:
+
+      Column(
         children: [
           Container(
             height: 170,
@@ -25,29 +27,31 @@ class Whatsappscreen extends StatelessWidget {
                     Text(
                       'WhatsApp',
                       style: TextStyle(
+                        fontSize:24,
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
+
                       ),
                     ),
                     SizedBox(
-                      width: 150,
+                      width: 110,
                     ),
                     Icon(
-                      Icons.search,
+                      Icons.search, size:30,
                       color: Colors.white,
                     ),
                     SizedBox(
-                      width: 31,
+                      width: 20,
                     ),
                     Icon(
-                      Icons.messenger,
+                      Icons.messenger,size:30,
                       color: Colors.white,
                     ),
                     SizedBox(
-                      width: 30,
+                      width: 15,
                     ),
                     Icon(
-                      Icons.more_vert,
+                      Icons.more_vert,size:30,
                       color: Colors.white,
                     ),
                   ],
@@ -89,6 +93,48 @@ class Whatsappscreen extends StatelessWidget {
                 )
               ],
             ),
+          ),
+          ListTile(
+            leading: CircleAvatar(backgroundImage: AssetImage('assests/catselfi.1.jpg'),),
+            title: Text('Pet',style: TextStyle(fontWeight: FontWeight.bold),),
+            subtitle: Text('Hello'),
+            trailing: Text('Today'),
+          ),
+          ListTile(
+            leading: CircleAvatar(backgroundImage: AssetImage('assests/dark..jpg'),),
+            title: Text('Khan',style: TextStyle(fontWeight: FontWeight.bold),),
+            subtitle: Text('whatsup'),
+            trailing: Text('9h'),
+          ),
+          ListTile(
+            leading: CircleAvatar(backgroundImage: AssetImage('assests/Dark wolf.jpg'),),
+            title: Text('Asfand',style: TextStyle(fontWeight: FontWeight.bold),),
+            subtitle: Text('lets meet now'),
+            trailing: Text('12h'),
+          ),
+          ListTile(
+            leading: CircleAvatar(backgroundImage: AssetImage('assests/dead walpaper.jpg'),),
+            title: Text('Usman',style: TextStyle(fontWeight: FontWeight.bold),),
+            subtitle: Text('Call me when free'),
+            trailing: Text('Yesterday'),
+          ),
+          ListTile(
+            leading: CircleAvatar(backgroundImage: AssetImage('assests/pikaa..jpg'),),
+            title: Text('Sheri',style: TextStyle(fontWeight: FontWeight.bold),),
+            subtitle: Text('Where are you'),
+            trailing: Text('2d ago'),
+          ),
+          ListTile(
+            leading: CircleAvatar(backgroundImage: AssetImage('assests/SUKUNA.jpeg'),),
+            title: Text('Pet',style: TextStyle(fontWeight: FontWeight.bold),),
+            subtitle: Text('Hello'),
+            trailing: Text('todaay'),
+          ),
+          ListTile(
+            leading: CircleAvatar(backgroundImage: AssetImage('assests/catselfi.1.jpg'),),
+            title: Text('Pet',style: TextStyle(fontWeight: FontWeight.bold),),
+            subtitle: Text('Hello'),
+            trailing: Text('todaay'),
           ),
           ListTile(
             leading: CircleAvatar(backgroundImage: AssetImage('assests/catselfi.1.jpg'),),
