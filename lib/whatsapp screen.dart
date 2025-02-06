@@ -151,6 +151,7 @@ class Whatsappscreen extends StatelessWidget {
             subtitle: Text('Leaving'),
             trailing: Text('12/12/2020'),
           ),
+          SizedBox(height:10),
         ],
       ),
     );
