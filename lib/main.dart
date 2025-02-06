@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:untitled/fb-homescreen.dart';
 import 'package:untitled/messengerscreen.dart';
+import 'package:untitled/sgnup%20form.dart';
 import 'package:untitled/whatsapp%20screen.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Whatsappscreen()
+        home: LoginScreen()
         // Scaffold(
         //   body:
         //     Center(
