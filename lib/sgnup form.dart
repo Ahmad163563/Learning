@@ -15,11 +15,13 @@ class LoginScreen extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      Text('Login',
-                          style: TextStyle(
-                              fontSize: 50,
-                              fontWeight: FontWeight.bold,
-                              color: Colors.black))
+
+                         Text('Login',
+                            style: TextStyle(
+                                fontSize: 50,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black)),
+
                     ],
                   ),
                   SizedBox(
