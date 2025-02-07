@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/messengerscreen.dart';
 class FacebookHomeScreen extends StatelessWidget {
   const FacebookHomeScreen({super.key});
 
@@ -19,7 +20,11 @@ class FacebookHomeScreen extends StatelessWidget {
         ),
         actions: [
           Icon(Icons.search),
-          Icon(Icons.messenger),
+
+          TextButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>Messengerscreen()));
+          },
+              child: Icon(Icons.messenger)),
         ],
       ),
       body: SingleChildScrollView(
