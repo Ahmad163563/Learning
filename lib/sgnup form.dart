@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/fb-homescreen.dart';
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
 
@@ -16,11 +17,18 @@ class LoginScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
 
-                         Text('Login',
-                            style: TextStyle(
-                                fontSize: 50,
-                                fontWeight: FontWeight.bold,
-                                color: Colors.black)),
+                      TextButton(onPressed: (){
+                        Navigator.push(context, MaterialPageRoute(
+                        builder:(context)=>FacebookHomeScreen())
+                        );
+                      },
+
+                        child: Text('Login',
+                              style: TextStyle(
+                                  fontSize: 50,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black)),
+                      ),
 
                     ],
                   ),
