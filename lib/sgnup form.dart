@@ -16,19 +16,11 @@ class LoginScreen extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-
-                      TextButton(onPressed: (){
-                        Navigator.push(context, MaterialPageRoute(
-                        builder:(context)=>FacebookHomeScreen())
-                        );
-                      },
-
-                        child: Text('Login',
-                              style: TextStyle(
-                                  fontSize: 50,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.black)),
-                      ),
+                      Text('Login',
+                            style: TextStyle(
+                                fontSize: 50,
+                                fontWeight: FontWeight.bold,
+                                color: Colors.black)),
 
                     ],
                   ),
@@ -112,9 +104,14 @@ class LoginScreen extends StatelessWidget {
                       ), // Gradient ending point
                       borderRadius: BorderRadius.circular(90),
                     ),
-                    child: Center(
-                      child: Text(
-                        'Login',
+                    child:
+                    TextButton(onPressed: (){
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=>FacebookHomeScreen()));
+                    },
+                      child: Center(
+                        child: Text(
+                          'Login',
+                        ),
                       ),
                     ),
                   ),
