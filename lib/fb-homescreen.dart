@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/fb%20video%20ui.dart';
 import 'package:untitled/messengerscreen.dart';
 class FacebookHomeScreen extends StatelessWidget {
   const FacebookHomeScreen({super.key});
@@ -37,7 +38,10 @@ class FacebookHomeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               CircleAvatar(child: Icon(Icons.home)),
-              CircleAvatar(child: Icon(Icons.video_collection)),
+              TextButton(onPressed: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>FBvideoUI()));
+              },
+                  child: CircleAvatar(child: Icon(Icons.video_collection))),
               CircleAvatar(child: Icon(Icons.group)),
               CircleAvatar(child: Icon(Icons.store_mall_directory)),
               CircleAvatar(child: Icon(Icons.notification_important)),
