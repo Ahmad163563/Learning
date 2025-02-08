@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:untitled/fb%20group%20ui.dart';
 import 'package:untitled/fb%20menu%20ui.dart';
 import 'package:untitled/fb%20notify%20ui.dart';
+import 'package:untitled/fb%20search%20icon.dart';
 import 'package:untitled/fb%20video%20ui.dart';
 import 'package:untitled/fbmrktplceui.dart';
 import 'package:untitled/messengerscreen.dart';
@@ -24,7 +25,11 @@ class FacebookHomeScreen extends StatelessWidget {
               wordSpacing: 10),
         ),
         actions: [
-          Icon(Icons.search),
+
+          TextButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (context)=>FacebookSearchUI()));
+          },
+              child: Icon(Icons.search)),
 
           TextButton(onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (context)=>Messengerscreen()));
