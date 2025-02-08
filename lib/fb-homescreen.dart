@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/fb%20group%20ui.dart';
 import 'package:untitled/fb%20video%20ui.dart';
 import 'package:untitled/messengerscreen.dart';
 class FacebookHomeScreen extends StatelessWidget {
@@ -42,9 +43,13 @@ class FacebookHomeScreen extends StatelessWidget {
                 Navigator.push(context, MaterialPageRoute(builder: (context)=>FBvideoUI()));
               },
                   child: CircleAvatar(child: Icon(Icons.video_collection))),
-              CircleAvatar(child: Icon(Icons.group)),
+              TextButton(onPressed: (){
+                Navigator.push(context, MaterialPageRoute(builder: (context)=>GroupsScreen()));
+              },
+                  child: CircleAvatar(child: Icon(Icons.group))),
               CircleAvatar(child: Icon(Icons.store_mall_directory)),
-              CircleAvatar(child: Icon(Icons.notification_important)),
+              TextButton(
+                  child: CircleAvatar(child: Icon(Icons.notification_important))),
               CircleAvatar(
                 child: Icon(Icons.menu),
               )
