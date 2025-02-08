@@ -24,7 +24,7 @@ class NotificationsScreen extends StatelessWidget {
           NotificationTile('John Doe liked your post', '2 min ago', Icons.thumb_up),
           NotificationTile('Emma commented on your photo', '10 min ago', Icons.comment),
           NotificationTile('You have a new friend request', '30 min ago', Icons.person_add),
-          NotificationTile('Anna mentioned you in a comment', '1 hour ago', Icons.mention),
+          NotificationTile('Anna mentioned you in a comment', '1 hour ago', Icons.request_page),
           NotificationTile('David shared your post', '2 hours ago', Icons.share),
         ],
       ),
