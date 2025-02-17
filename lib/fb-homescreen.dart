@@ -100,10 +100,16 @@ class FacebookHomeScreen extends StatelessWidget {
               SizedBox(
                 width: 10,
               ),
-              CircleAvatar(
-                backgroundImage: AssetImage('assests/images 1.webp'),
-                //child: Icon(Icons.person),
-                radius: 20,
+
+              TextButton(
+                onPressed: (){
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>AnimalProfileStoryApp)));
+                },
+                child: CircleAvatar(
+                  backgroundImage: AssetImage('assests/images 1.webp'),
+                  //child: Icon(Icons.person),
+                  radius: 20,
+                ),
               ),
               //   SizedBox(width: 20,),
               SizedBox(
@@ -169,7 +175,7 @@ class FacebookHomeScreen extends StatelessWidget {
                   ),
                   SizedBox(
                     width: 5,
-                  ),
+                  ),//image etc.....>
                   Container(
                     height: 120,
                     width: 110,
