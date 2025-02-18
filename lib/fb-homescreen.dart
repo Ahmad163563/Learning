@@ -103,7 +103,7 @@ class FacebookHomeScreen extends StatelessWidget {
 
               TextButton(
                 onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>AnimalProfileStoryApp)));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>)));
                 },
                 child: CircleAvatar(
                   backgroundImage: AssetImage('assests/images 1.webp'),
