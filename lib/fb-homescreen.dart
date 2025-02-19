@@ -4,6 +4,7 @@ import 'package:untitled/fb%20menu%20ui.dart';
 import 'package:untitled/fb%20notify%20ui.dart';
 import 'package:untitled/fb%20search%20icon.dart';
 import 'package:untitled/fb%20video%20ui.dart';
+import 'package:untitled/fb-story-ptofile.dart';
 import 'package:untitled/fbmrktplceui.dart';
 import 'package:untitled/messengerscreen.dart';
 class FacebookHomeScreen extends StatelessWidget {
@@ -103,7 +104,7 @@ class FacebookHomeScreen extends StatelessWidget {
 
               TextButton(
                 onPressed: (){
-                  Navigator.push(context, MaterialPageRoute(builder: (context)=>)));
+                  Navigator.push(context, MaterialPageRoute(builder: (context)=>AnimalProfileStory()));
                 },
                 child: CircleAvatar(
                   backgroundImage: AssetImage('assests/images 1.webp'),
