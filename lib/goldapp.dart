@@ -1,66 +1,49 @@
 import 'package:flutter/material.dart';
-
-import 'dart:convert';
-
-void main() {
-  runApp(GoldApp());
-}
-
-class GoldApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Gold Price App',
-      theme: ThemeData(primarySwatch: Colors.amber),
-      home: GoldPriceScreen(),
-    );
-  }
-}
-
-class GoldPriceScreen extends StatefulWidget {
-  @override
-  _GoldPriceScreenState createState() => _GoldPriceScreenState();
-}
-
-class _GoldPriceScreenState extends State<GoldPriceScreen> {
-  double goldPrice = 0.0;
+class Goldapp extends StatefulWidget {
+  const Goldapp({super.key});
 
   @override
-  void initState() {
-    super.initState();
-    fetchGoldPrice();
-  }
+  State<Goldapp> createState() => _GoldappState();
+}
 
-  Future<void> fetchGoldPrice() async {
-    final url = Uri.parse('https://api.metals-api.com/v1/latest?access_key=YOUR_API_KEY&base=USD&symbols=XAU');
-    final response = await http.get(url);
-
-    if (response.statusCode == 200) {
-      final data = json.decode(response.body);
-      setState(() {
-        goldPrice = data['rates']['XAU'];
-      });
-    } else {
-      print('Failed to fetch data');
-    }
-  }
-
+class _GoldappState extends State<Goldapp> {
+  TextEditingController tolaPriceController=TextEditingController();
+  TextEditingController tolaQuantityController=TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Gold Price Today')),
+      backgroundColor: Colors.black,
       body: Center(
-        child: goldPrice == 0.0
-            ? CircularProgressIndicator()
-            : Text(
-          'Gold Price: \$${goldPrice.toStringAsFixed(2)} per ounce',
-          style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+        child: Column(
+          children: [
+            Container(
+              margin: EdgeInsets.symmetric(horizontal: 40,vertical: 30),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(color: Colors.orange)
+              ),
+              child: TextFormField(style: TextStyle(color: Colors.orange),
+              controller: tolaPriceController,
+                decoration: InputDecoration(
+                  prefixIcon: Icon(Icons.price_check,color: Colors.orange,),
+                  hintStyle: TextStyle(color: Colors.white),
+                  hintText: 'Enter tola price'
+
+                ),
+
+              ),
+            ),
+            SizedBox(height: 10,),
+            Container(
+              child: TextFormField(
+                controller: tolaQuantityController,
+                decoration: InputDecoration(
+                  hintText: 'Enter Tola Quantity'
+                ),
+              ),
+            )
+          ],
         ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: fetchGoldPrice,
-        child: Icon(Icons.refresh),
       ),
     );
   }
