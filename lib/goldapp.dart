@@ -41,6 +41,10 @@ class _GoldappState extends State<Goldapp> {
                   hintText: 'Enter Tola Quantity'
                 ),
               ),
+            ),
+            SizedBox(height: 10,),
+            Container(
+              h
             )
           ],
         ),
