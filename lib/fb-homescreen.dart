@@ -77,7 +77,7 @@ class FacebookHomeScreen extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: 20,
+            height: 30,
           ),
           Divider(
             thickness: 5,
