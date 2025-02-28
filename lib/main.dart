@@ -1,3 +1,5 @@
+
+
 import 'package:flutter/material.dart';
 
 import 'package:untitled/fb-homescreen.dart';
@@ -5,6 +7,7 @@ import 'package:untitled/goldapp.dart';
 
 import 'package:untitled/messengerscreen.dart';
 import 'package:untitled/sgnup%20form.dart';
+import 'package:untitled/splashgolaapp.dart';
 import 'package:untitled/whatsapp%20screen.dart';
 
 void main() {
@@ -14,17 +17,11 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
   @override
-  void initiate.state
-
-  @override
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Scaffold(
-          body: Center(
-            child: Image.asset('assests/two.png'),
-          )
-        )
+        home: GOLDAPP()
+
         // Scaffold(
         //   body:
         //     Center(
