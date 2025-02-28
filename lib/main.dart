@@ -13,12 +13,18 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+  @override
+  void initiate.state
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: FacebookHomeScreen()
+        home: Scaffold(
+          body: Center(
+            child: Image.asset('assests/two.png'),
+          )
+        )
         // Scaffold(
         //   body:
         //     Center(

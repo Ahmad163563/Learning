@@ -16,9 +16,9 @@ class _GoldappState extends State<Goldapp> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.orange,
-      ),
+appBar: AppBar(
+  backgroundColor: Colors.orange,
+),
       backgroundColor: Colors.black,
 
       body: Center(
@@ -37,7 +37,7 @@ class _GoldappState extends State<Goldapp> {
                 child: TextFormField(style: TextStyle(color: Colors.orange),
                   controller: tolaPriceController,
                   decoration: InputDecoration(
-                      border: InputBorder.none,
+                    border: InputBorder.none,
                       prefixIcon: Icon(Icons.price_check,color: Colors.orange,),
                       hintStyle: TextStyle(color: Colors.white),
                       hintText: 'Enter Tola Price'
@@ -122,7 +122,7 @@ class _GoldappState extends State<Goldapp> {
                   mashaprice=tolaprice/12;
                   //now find 1 masha price
                   totalMashaPrice=mashaprice*mashaqu;
-                  //now find ratti price
+                   //now find ratti price
                   rattiPrice=tolaprice/96;
                   totalRattiPrice=rattiPrice*rattiqu;
                   mashaPriceOut=totalMashaPrice*totalRattiPrice;
@@ -138,7 +138,7 @@ class _GoldappState extends State<Goldapp> {
                     color: Colors.orange,
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  child: Center(child: Text('Calculate',style: TextStyle(color: Colors.white),),),
+                 child: Center(child: Text('Calculate',style: TextStyle(color: Colors.white),),),
                 ),
               ),
               SizedBox(height: 10,),
