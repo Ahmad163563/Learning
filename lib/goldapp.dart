@@ -18,7 +18,7 @@ class _GoldappState extends State<Goldapp> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.blac,
       ),
       backgroundColor: Colors.black,
 
