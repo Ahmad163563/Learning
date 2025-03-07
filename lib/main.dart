@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 
 import 'package:untitled/fb-homescreen.dart';
 import 'package:untitled/goldapp.dart';
+import 'package:untitled/loopcode.dart';
 
 import 'package:untitled/messengerscreen.dart';
 import 'package:untitled/sgnup%20form.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        home: GOLDAPP()
+        home: Loopcode()
 
         // Scaffold(
         //   body:
