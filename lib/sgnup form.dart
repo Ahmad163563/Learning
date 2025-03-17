@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/fb-homescreen.dart';
-class LoginScreen extends StatelessWidget {
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
+
+    class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
 
+  @override
+  State<LoginScreen> createState() => _LoginScreenState();
+}
+
+class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -105,10 +112,15 @@ class LoginScreen extends StatelessWidget {
                       borderRadius: BorderRadius.circular(90),
                     ),
                     child:
-                    TextButton(onPressed: (){
-                      Navigator.push(context, MaterialPageRoute(builder: (context)=>FacebookHomeScreen()));
-                    },
-                      child: Center(
+                    FloatingActionButton(onPressed: (){
+                      Get.snackbar(
+                        'Success','Login Successfully',
+                        backgroundColor: Colors.green
+                      );
+
+                      },
+                      child:
+                      Center(
                         child: Text(
                           'Login',
                         ),
@@ -168,5 +180,5 @@ class LoginScreen extends StatelessWidget {
 
     ));
         }
-  }
+}
 
