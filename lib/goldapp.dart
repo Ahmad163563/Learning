@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 
 class Goldapp extends StatefulWidget {
   const Goldapp({super.key});
@@ -14,11 +16,18 @@ class _GoldappState extends State<Goldapp> {
   TextEditingController rattiQuantityController=TextEditingController();
   double total=0;
   double mashaPriceOut=0;
+  double tolaprice=0;
+  double rattiprice=0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.orange,
+        title: Text('Gold App',style: TextStyle(
+          fontSize: 50,
+          fontWeight: FontWeight.bold,
+          color: Colors.white,
+        ),),
       ),
       backgroundColor: Colors.black,
 
@@ -26,137 +35,164 @@ class _GoldappState extends State<Goldapp> {
         child:
         SingleChildScrollView(
           scrollDirection: Axis.vertical,
-          child: Column(
-            children: [
+          child:
+          FloatingActionButton(
+            onPressed: (){
+              Get.defaultDialog(
+                title: 'Information',
+                content: Text('The Field Is Already Empty'),
+                actions: [
+              Column(
+              children: [
+                Icon(Icons.info,color: Colors.blue,),
+              TextButton(onPressed: (){}, child: child)
               SizedBox(height: 30,),
               Container(
-                margin: EdgeInsets.symmetric(horizontal: 40,vertical: 5),
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(color: Colors.orange)
-                ),
-                child: TextFormField(style: TextStyle(color: Colors.orange),
-                  controller: tolaPriceController,
-                  decoration: InputDecoration(
-                      border: InputBorder.none,
-                      prefixIcon: Icon(Icons.price_check,color: Colors.orange,),
-                      hintStyle: TextStyle(color: Colors.white),
-                      hintText: 'Enter Tola Price'
+              margin: EdgeInsets.symmetric(horizontal: 40,vertical: 5),
+              decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(color: Colors.orange)
+              ),
+              child: TextFormField(style: TextStyle(color: Colors.orange),
+              controller: tolaPriceController,
+              decoration: InputDecoration(
+              border: InputBorder.none,
+              prefixIcon: Icon(Icons.price_check,color: Colors.orange,),
+              hintStyle: TextStyle(color: Colors.white),
+              hintText: 'Enter Tola Price'
 
-                  ),
+              ),
 
-                ),
+              ),
               ),
               SizedBox(height: 10,),
               Container(
-                margin: EdgeInsets.symmetric(horizontal: 40,vertical: 30),
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(color: Colors.orange)
-                ),
-                child: TextFormField(style: TextStyle(color: Colors.orange),
-                  controller: tolaQuantityController,
-                  decoration: InputDecoration(
-                      border: InputBorder.none,
-                      prefixIcon: Icon(Icons.price_check,color: Colors.orange,),
-                      hintStyle: TextStyle(color: Colors.white),
-                      hintText: 'Enter Tola Quantity'
+              margin: EdgeInsets.symmetric(horizontal: 40,vertical: 30),
+              decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(color: Colors.orange)
+              ),
+              child: TextFormField(style: TextStyle(color: Colors.orange),
+              controller: tolaQuantityController,
+              decoration: InputDecoration(
+              border: InputBorder.none,
+              prefixIcon: Icon(Icons.price_check,color: Colors.orange,),
+              hintStyle: TextStyle(color: Colors.white),
+              hintText: 'Enter Tola Quantity'
 
-                  ),
+              ),
 
-                ),
+              ),
               ),
               SizedBox(height: 10,),
               Container(
-                margin: EdgeInsets.symmetric(horizontal: 40,vertical: 30),
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(color: Colors.orange)
-                ),
-                child: TextFormField(style: TextStyle(color: Colors.orange),
-                  controller: mashaQuantityController,
-                  decoration: InputDecoration(
-                      border: InputBorder.none,
-                      prefixIcon: Icon(Icons.price_check,color: Colors.orange,),
-                      hintStyle: TextStyle(color: Colors.white),
-                      hintText: 'Enter Masha Quantity'
+              margin: EdgeInsets.symmetric(horizontal: 40,vertical: 30),
+              decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(color: Colors.orange)
+              ),
+              child: TextFormField(style: TextStyle(color: Colors.orange),
+              controller: mashaQuantityController,
+              decoration: InputDecoration(
+              border: InputBorder.none,
+              prefixIcon: Icon(Icons.price_check,color: Colors.orange,),
+              hintStyle: TextStyle(color: Colors.white),
+              hintText: 'Enter Masha Quantity'
 
-                  ),
+              ),
 
-                ),
+              ),
               ),
               SizedBox(height: 10,),
               Container(
-                margin: EdgeInsets.symmetric(horizontal: 40,vertical: 30),
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(color: Colors.orange)
-                ),
-                child: TextFormField(style: TextStyle(color: Colors.orange),
-                  controller: rattiQuantityController,
-                  decoration: InputDecoration(
-                      border: InputBorder.none,
-                      prefixIcon: Icon(Icons.price_check,color: Colors.orange,),
-                      hintStyle: TextStyle(color: Colors.white),
-                      hintText: 'Enter Ratti Quantity'
+              margin: EdgeInsets.symmetric(horizontal: 40,vertical: 30),
+              decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(10),
+              border: Border.all(color: Colors.orange)
+              ),
+              child: TextFormField(style: TextStyle(color: Colors.orange),
+              controller: rattiQuantityController,
+              decoration: InputDecoration(
+              border: InputBorder.none,
+              prefixIcon: Icon(Icons.price_check,color: Colors.orange,),
+              hintStyle: TextStyle(color: Colors.white),
+              hintText: 'Enter Ratti Quantity'
 
-                  ),
+              ),
 
-                ),
+              ),
               ),
 
               InkWell(
-                onTap: (){
-                  double tolaprice;
-                  double tolaqu;
-                  double mashaqu;
-                  double mashaprice;
-                  double totalMashaPrice;
-                  double rattiqu;
-                  double rattiPrice;
-                  double totalRattiPrice;
-                  tolaprice=double.parse(tolaPriceController.text);
-                  tolaqu=double.parse(tolaQuantityController.text);
-                  mashaqu=double.parse(mashaQuantityController.text);
-                  rattiqu=double.parse(rattiQuantityController.text);
-                  //first we find price of 1 masha
-                  mashaprice=tolaprice/12;
-                  //now find 1 masha price
-                  totalMashaPrice=mashaprice*mashaqu;
-                  //now find ratti price
-                  rattiPrice=tolaprice/96;
-                  totalRattiPrice=rattiPrice*rattiqu;
-                  mashaPriceOut=totalMashaPrice*totalRattiPrice;
-                  double tolap=(tolaprice*tolaqu)+totalMashaPrice;
-                  setState(() {
+              onTap: (){
 
-                  });
-                },
-                child: Container(
-                  height: 45,
-                  width: 245,
-                  decoration: BoxDecoration(
-                    color: Colors.orange,
-                    borderRadius: BorderRadius.circular(10),
-                  ),
-                  child: Center(child: Text('Calculate',style: TextStyle(color: Colors.white),),),
-                ),
+              if (tolaPriceController.text==" "
+              ){
+              Get.snackbar(
+              'Error','Enter correct value',
+              backgroundColor: Colors.white,
+              icon: Icon(Icons.warning,color: Colors.red,)
+              );
+              }
+              else{
+              double tolaprice;
+              double tolaqu;
+              double mashaqu;
+              double mashaprice;
+              double totalMashaPrice;
+              double rattiqu;
+              double rattiPrice;
+              double totalRattiPrice;
+              tolaprice=double.parse(tolaPriceController.text);
+              tolaqu=double.parse(tolaQuantityController.text);
+              mashaqu=double.parse(mashaQuantityController.text);
+              rattiqu=double.parse(rattiQuantityController.text);
+              //first we find price of 1 masha
+              mashaprice=tolaprice/12;
+              //now find 1 masha price
+              totalMashaPrice=mashaprice*mashaqu;
+              //now find ratti price
+              rattiPrice=tolaprice/96;
+              totalRattiPrice=rattiPrice*rattiqu;
+              mashaPriceOut=totalMashaPrice*totalRattiPrice;
+              double tolap=(tolaprice*tolaqu)+totalMashaPrice;
+              setState(() {
+
+              });
+              }
+
+
+              },
+              child: Container(
+              height: 45,
+              width: 245,
+              decoration: BoxDecoration(
+              color: Colors.orange,
+              borderRadius: BorderRadius.circular(10),
+              ),
+              child: Center(child: Text('Calculate',style: TextStyle(color: Colors.white),),),
+              ),
               ),
               SizedBox(height: 10,),
               Container(
-                height: 45,
-                width: 245,
-                decoration: BoxDecoration(
-                  color: Colors.orange,
-                  borderRadius: BorderRadius.circular(10),
-                ),
-                child: Center(child: Text('Reset',style: TextStyle(color: Colors.white),),),
+              height: 45,
+              width: 245,
+              decoration: BoxDecoration(
+              color: Colors.orange,
+              borderRadius: BorderRadius.circular(10),
+              ),
+              child: Center(child: Text('Reset',style: TextStyle(color: Colors.white),),),
               ),
               SizedBox(height: 20 ,),
               Text('Total Price $total',style: TextStyle(color: Colors.white),),
               SizedBox(height: 10,),
               Text('mashaprice$mashaPriceOut',style: TextStyle(color: Colors.white),),
-            ],
+              ],
+              )
+
+
+
+            },
           ),
         ),
       ),

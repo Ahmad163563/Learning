@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 class GetNullCheck extends StatefulWidget {
   const GetNullCheck({super.key});
 
@@ -31,7 +33,11 @@ class _GetNullCheckState extends State<GetNullCheck> {
             decoration: InputDecoration(hintText: 'Gram Quantity'),
           ),
           FloatingActionButton(onPressed: (){
-            if(TolaQuantityController.text=="")
+            if (TolaQuantityController=='0')
+              {
+                G
+              }
+            else{ if(TolaQuantityController.text=="")
             {
               TolaQuantityController.text='0';
             }
@@ -40,7 +46,8 @@ class _GetNullCheckState extends State<GetNullCheck> {
             )
             {
               GramQuantityController.text='0';
-            }
+            }}
+
           })
         ],
       )
