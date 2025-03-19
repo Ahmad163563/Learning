@@ -13,7 +13,9 @@ class _LuckygameState extends State<Luckygame> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      floatingActionButton: FloatingActionButton(onPressed: (){
+      floatingActionButton: FloatingActionButton(onPressed: (
+
+          ){
         int guessnumber=int.parse(numberController.text);
         int lucky=6;
         if(guessnumber==lucky)
@@ -27,20 +29,28 @@ class _LuckygameState extends State<Luckygame> {
                 ],
                 
               ),
+              actions: [TextButton(onPressed: (){
+
+                Navigator.pop(context);
+              }, child: Text('Okay'))]
               
             );
           }
         else{
           Get.defaultDialog(
-            title: 'Shodaaa!!!!',
+            title: 'Bad Luck!!!!',
             content: Column(
               children: [
-                Icon(Icons.check_circle_outline),
-                Text('Back Luck'),
+                Icon(Icons.close_rounded),
+                Text('Try Again'),
               ],
             ),
             actions: [
-              TextButton(onPressed: (){}, child: Text('Back'))
+              TextButton(onPressed: (
+
+                  ){
+                Navigator.pop(context);
+              }, child: Text('Back'))
             ]
           );
         }
@@ -54,7 +64,6 @@ class _LuckygameState extends State<Luckygame> {
               border: Border.all()
             ),
             child: TextFormField(
-              controller: numberController,
               keyboardType: TextInputType.number,
               decoration: InputDecoration(
                 hintText: 'Guess a Number'
