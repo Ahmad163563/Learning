@@ -16,7 +16,7 @@ class _LuckygameState extends State<Luckygame> {
       floatingActionButton: FloatingActionButton(onPressed: (){
         int guessnumber=int.parse(numberController.text);
         int lucky=6;
-        if(guessNumkber==lucky)
+        if(guessnumber==lucky)
           {
             Get.defaultDialog(
               title: 'Congratulation',
@@ -27,12 +27,42 @@ class _LuckygameState extends State<Luckygame> {
                 ],
                 
               ),
-              actions: [TextButton(onPressed: (){
-                Navigator.pop(context);
-              }, child: Text('Thik hai'))]
+              
             );
           }
+        else{
+          Get.defaultDialog(
+            title: 'Shodaaa!!!!',
+            content: Column(
+              children: [
+                Icon(Icons.check_circle_outline),
+                Text('Back Luck'),
+              ],
+            ),
+            actions: [
+              TextButton(onPressed: (){}, child: Text('Back'))
+            ]
+          );
+        }
       }),
+      body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(30),
+              border: Border.all()
+            ),
+            child: TextFormField(
+              controller: numberController,
+              keyboardType: TextInputType.number,
+              decoration: InputDecoration(
+                hintText: 'Guess a Number'
+              ),
+            ),
+          )
+        ],
+      ),
     );
   }
 }
