@@ -15,18 +15,18 @@ class _LuckygameState extends State<Luckygame> {
   TextEditingController numberController = TextEditingController();
   randomNumberGenerator(){
     Random random=Random();
-    return random.nextInt(90)+10;
+    return random.nextInt(9)+10;
 
   }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(onPressed: () {
-        int guessnumber = int.parse(numberController.text);
+        int guessnumber=int.parse(numberController.text);
         Random random=Random();
         int lucky=randomNumberGenerator();
         print('Random Generate$lucky');
-        if (guessnumber == lucky) {
+        if (guessnumber==lucky) {
           Get.defaultDialog(
               title: 'Congratulation',
               content: Column(
@@ -35,6 +35,7 @@ class _LuckygameState extends State<Luckygame> {
               actions: [
                 TextButton(
                     onPressed: () {
+                      numberController.clear();
                       Navigator.pop(context);
                     },
                     child: Text('Okay'))
@@ -60,12 +61,15 @@ class _LuckygameState extends State<Luckygame> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Container(
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(30), border: Border.all()),
-            child: TextFormField(
-              keyboardType: TextInputType.number,
-              decoration: InputDecoration(hintText: 'Guess a Number'),
+          Center(
+            child: Container(
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(30), border: Border.all()),
+              child: TextFormField(
+                controller: numberController,
+                keyboardType: TextInputType.number,
+                decoration: InputDecoration(hintText: 'Guess a Number'),
+              ),
             ),
           )
         ],
