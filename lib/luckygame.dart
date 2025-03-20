@@ -15,7 +15,7 @@ class _LuckygameState extends State<Luckygame> {
   TextEditingController numberController = TextEditingController();
   randomNumberGenerator(){
     Random random=Random();
-    return random.nextInt(9)+10;
+    return random.nextInt(9)+1;
 
   }
   @override
@@ -24,6 +24,7 @@ class _LuckygameState extends State<Luckygame> {
       floatingActionButton: FloatingActionButton(onPressed: () {
         int guessnumber=int.parse(numberController.text);
         Random random=Random();
+        int x=random.nextInt(90)+10;
         int lucky=randomNumberGenerator();
         print('Random Generate$lucky');
         if (guessnumber==lucky) {
