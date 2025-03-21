@@ -21,6 +21,7 @@ class _LuckygameState extends State<Luckygame> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.blueAccent,
       floatingActionButton: FloatingActionButton(onPressed: () {
         int guessnumber=int.parse(numberController.text);
         Random random=Random();
