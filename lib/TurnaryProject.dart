@@ -7,14 +7,25 @@ class Turnary extends StatefulWidget {
 }
 
 class _TurnaryState extends State<Turnary> {
+  int i=0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Container(
-          height: 45,
-          width: 250,
-color: Colors.purple,
+        child:
+        InkWell(
+          onTap: (){
+            i=1;
+          },
+          child: Container(
+            height: 45,
+            width: 250,
+          color:
+          //if(i==0){color: purple}
+          //else{color: green,},
+          i==0? Colors.purple :Colors.green
+          //color: Colors.purple,
+          ),
         ),
       )
     );
