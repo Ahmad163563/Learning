@@ -67,12 +67,14 @@ class _LuckygameState extends State<Luckygame> {
           Center(
             child: Container(
               decoration: BoxDecoration(
+                color: Colors.white,
                   borderRadius: BorderRadius.circular(30), border: Border.all()),
               child: TextFormField(
                 controller: numberController,
                 keyboardType: TextInputType.number,
                 decoration: InputDecoration(hintText: 'Guess a Number'),
               ),
+
             ),
           )
         ],
