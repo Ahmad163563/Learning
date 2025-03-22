@@ -13,19 +13,64 @@ class _TurnaryState extends State<Turnary> {
     return Scaffold(
       body: Center(
         child:
-        InkWell(
-          onTap: (){
-            i=1;
-          },
-          child: Container(
-            height: 45,
-            width: 250,
-          color:
-          //if(i==0){color: purple}
-          //else{color: green,},
-          i==0? Colors.purple :Colors.green
-          //color: Colors.purple,
-          ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            InkWell(
+              onTap: (){
+i=1;
+setState(() {
+
+});
+              },
+              child: Container(
+                height: 45,
+                width: 250,
+              color:
+               i == 0 ? Colors.grey : Colors.green,
+                alignment: Alignment.center, // Center text
+                child: Text(
+                  i == 0 ? 'Un-Selected' : 'Selected',
+                  style: TextStyle(
+                    color: i == 0 ? Colors.black : Colors.white, // Text color change
+                    fontSize: 16,
+                  ),
+                ),
+              //if(i==0){color: purple}
+              //else{color: green,},
+            // i==0? Colors.grey :Colors.green,
+           //   child: Text(i==0?'Un-Selected':'Selected'),
+              //color: Colors.purple,
+              ),
+            ),
+            InkWell(
+              onTap: (){
+i=0;
+setState(() {
+
+});
+              },
+              child: Container(
+                  height: 45,
+                  width: 250,
+                  color:
+                   i == 1 ? Colors.grey : Colors.green,
+                alignment: Alignment.center, // Center text
+                child: Text(
+                  i == 1 ? 'Un-Selected' : 'Selected',
+                  style: TextStyle(
+                    color: i == 0 ? Colors.white : Colors.black, // Text color change
+                    fontSize: 16,
+                  ),
+                ),
+                  //if(i==0){color: purple}
+                  //else{color: green,},
+                // i==1? Colors.grey :Colors.green,
+               // child: Text(i==1?'Un-Selected':'Selected'),
+                //color: Colors.purple,
+              ),
+            ),
+          ],
         ),
       )
     );
