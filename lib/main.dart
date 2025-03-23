@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:untitled/TurnaryProject.dart';
+import 'package:untitled/instagram.dart';
 import 'package:untitled/luckygame.dart';
 
 import 'package:untitled/luckygame.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Turnary()
+        home: InstagramUI()
 
         // Scaffold(
         //   body:
