@@ -66,9 +66,9 @@ class _InstagramUIState extends State<InstagramUI> {
                       CircleAvatar(
                         radius: 30,
                         backgroundColor: Colors.grey,
-                        backgroundImage: AssetImage('assets/catselfi.1.jpg'),
+                        backgroundImage: AssetImage('assests/catselfi.1.jpg'),
                       ),
-                      SizedBox(height: 5),
+                      SizedBox(height: 3),
                       Text('User $index')
                     ],
                   ),
@@ -87,14 +87,14 @@ class _InstagramUIState extends State<InstagramUI> {
                   children: [
                     ListTile(
                       leading: CircleAvatar(
-                        backgroundImage: AssetImage('assets/profile$index.jpg'),
+                        backgroundImage: AssetImage('assests/dark..jpg'),
                       ),
                       title: Text('User $index'),
                       subtitle: Text('Location $index'),
                       trailing: Icon(Icons.more_vert),
                     ),
                     Image.asset(
-                      'assets/post$index.jpg',
+                      'assests/Dark wolf.jpg',
                       height: 300,
                       width: double.infinity,
                       fit: BoxFit.cover,
