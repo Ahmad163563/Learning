@@ -66,7 +66,7 @@ class _InstagramUIState extends State<InstagramUI> {
                       CircleAvatar(
                         radius: 30,
                         backgroundColor: Colors.grey,
-                        backgroundImage: AssetImage('assets/profile$index.jpg'),
+                        backgroundImage: AssetImage('assets/catselfi.1.jpg'),
                       ),
                       SizedBox(height: 5),
                       Text('User $index')
