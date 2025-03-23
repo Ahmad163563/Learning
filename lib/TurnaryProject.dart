@@ -11,6 +11,12 @@ class _TurnaryState extends State<Turnary> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+
+          title: Text(i == 0 ? 'No Selection' : i == 1 ? 'First Selected' : 'Second Selected'),
+          backgroundColor: i == 0 ? Colors.grey : Colors.green,
+        ),
+
       body: Center(
         child:
         Column(
