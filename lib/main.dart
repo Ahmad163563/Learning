@@ -6,6 +6,7 @@ import 'package:untitled/luckygame.dart';
 
 import 'package:untitled/luckygame.dart';
 import 'package:untitled/whatsapp%20screen.dart';
+import 'package:untitled/wtsp%20bottom%20bar.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        home: Whatsappscreen()
+        home: WtspUI()
 
         // Scaffold(
         //   body:
