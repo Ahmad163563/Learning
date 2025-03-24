@@ -5,6 +5,7 @@ import 'package:untitled/instagram.dart';
 import 'package:untitled/luckygame.dart';
 
 import 'package:untitled/luckygame.dart';
+import 'package:untitled/whatsapp%20screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
         debugShowCheckedModeBanner: false,
-        home: InstagramUI()
+        home: Whatsappscreen()
 
         // Scaffold(
         //   body:
