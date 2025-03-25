@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
 class WtspUI extends StatefulWidget {
   const WtspUI({super.key});
-int select=1;
   @override
   State<WtspUI> createState() => _WtspUIState();
 }
-
 class _WtspUIState extends State<WtspUI> {
+  int select=1;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,17 +13,42 @@ class _WtspUIState extends State<WtspUI> {
         children: [
           Expanded(
               flex: 90,
-              child: select==1?Chat),
+              child: select==1?ChatScreen() : select==2?UpdateScreen() : select==3?CommunityScreen() : select==4?CallsSreen():Container(),
+          ),
           Expanded(
               flex: 10,
-              child: Container(child: Row(
+              child: Container(
+                child:
+                Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly   ,
                 children: [
-            TextButton(onPressed: (){}, child: Text('Chats')),
-            TextButton(onPressed: (){}, child: Text('Update')),
-            TextButton(onPressed: (){}, child: Text('Community')),
-            TextButton(onPressed: (){}, child: Text('Calls  '))
-          ],),))
+            TextButton(onPressed: (){
+              select=1;
+              setState(() {
+
+              });
+            }, child: Text('Chats')),
+            TextButton(onPressed: (){
+              select=2;
+              setState(() {
+
+              });
+            }, child: Text('Update')),
+            TextButton(onPressed: (){
+              select=3;
+              setState(() {
+
+              });
+            }, child: Text('Community')),
+            TextButton(onPressed: (){
+              select=4;
+              setState(() {
+
+              });
+            }, child: Text('Calls  '))
+          ],)
+                ,)
+          )
         ],
       ),
     );
