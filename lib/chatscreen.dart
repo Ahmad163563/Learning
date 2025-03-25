@@ -1,111 +1,80 @@
 import 'package:flutter/material.dart';
-class WhatsAppChatScreen extends StatelessWidget {
+
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ChatScreen(),
+      home: ChatListScreen(),
     );
   }
 }
 
-class ChatScreen extends StatefulWidget {
-  @override
-  _ChatScreenState createState() => _ChatScreenState();
-}
-
-class _ChatScreenState extends State<ChatScreen> {
-  final List<String> messages = [
-    "Hello! How are you?",
-    "I'm good! What about you?",
-    "I'm doing great. Let's catch up soon!",
-    "Sure! Let me know when you're free."
+class ChatListScreen extends StatelessWidget {
+  final List<Map<String, String>> chats = [
+    {"name": "Ali", "message": "Kahan ho?", "time": "10:30 AM"},
+    {"name": "Ayesha", "message": "Kal miltay hain?", "time": "9:15 AM"},
+    {"name": "Hamza", "message": "Coding seekh rha hun!", "time": "8:45 AM"},
+    {"name": "Asif", "message": "Flutter best hai!", "time": "7:30 AM"},
+    {"name": "Daniyal", "message": "Academy aye ga?!", "time": "6:50 AM"},
+    {"name": "Arslan", "message": "uth ja ab", "time": "6:30 AM"},
+    {"name": "Usman", "message": "Cafe chaly?", "time": "6:00 AM"},
+    {"name": "Abdullah", "message": "Flutter is the world!", "time": "Yesterday"},
   ];
-
-  final TextEditingController _controller = TextEditingController();
-
-  void _sendMessage() {
-    if (_controller.text.isNotEmpty) {
-      setState(() {
-        messages.add(_controller.text);
-        _controller.clear();
-      });
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFF075E54),
-        title: Row(
-          children: [
-            CircleAvatar(
-              backgroundImage: NetworkImage('https://via.placeholder.com/150'),
-            ),
-            SizedBox(width: 10),
-            Text("John Doe"),
-          ],
-        ),
-        actions: [
-          IconButton(icon: Icon(Icons.video_call), onPressed: () {}),
-          IconButton(icon: Icon(Icons.call), onPressed: () {}),
-          IconButton(icon: Icon(Icons.more_vert), onPressed: () {}),
-        ],
+        title: Text("WhatsApp"),
+        backgroundColor: Colors.teal,
       ),
-      body: Column(
-        children: [
-          Expanded(
-            child: ListView.builder(
-              padding: EdgeInsets.all(10),
-              itemCount: messages.length,
-              itemBuilder: (context, index) {
-                bool isMe = index % 2 == 0;
-                return Align(
-                  alignment: isMe ? Alignment.centerRight : Alignment.centerLeft,
-                  child: Container(
-                    padding: EdgeInsets.all(12),
-                    margin: EdgeInsets.symmetric(vertical: 5),
-                    decoration: BoxDecoration(
-                      color: isMe ? Colors.green[300] : Colors.grey[300],
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: Text(messages[index], style: TextStyle(fontSize: 16)),
-                  ),
-                );
-              },
+      body: ListView.builder(
+        itemCount: chats.length,
+        itemBuilder: (context, index) {
+          return ListTile(
+            leading: CircleAvatar(
+              backgroundColor: Colors.teal,
+              child: Text(
+                chats[index]['name']![0],
+                style: TextStyle(color: Colors.white),
+              ),
             ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Row(
-              children: [
-                Expanded(
-                  child: TextField(
-                    controller: _controller,
-                    decoration: InputDecoration(
-                      hintText: "Type a message",
-                      filled: true,
-                      fillColor: Colors.white,
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(30),
-                        borderSide: BorderSide.none,
-                      ),
-                    ),
-                  ),
+            title: Text(chats[index]['name']!),
+            subtitle: Text(chats[index]['message']!),
+            trailing: Text(chats[index]['time']!),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ChatScreen(name: chats[index]['name']!),
                 ),
-                SizedBox(width: 10),
-                CircleAvatar(
-                  backgroundColor: Color(0xFF25D366),
-                  child: IconButton(
-                    icon: Icon(Icons.send, color: Colors.white),
-                    onPressed: _sendMessage,
-                  ),
-                )
-              ],
-            ),
-          ),
-        ],
+              );
+            },
+          );
+        },
+      ),
+    );
+  }
+}
+
+class ChatScreen extends StatelessWidget {
+  final String name;
+
+  ChatScreen({required this.name});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(name),
+        backgroundColor: Colors.teal,
+      ),
+      body: Center(
+        child: Text(
+          "Chat with $name",
+          style: TextStyle(fontSize: 20),
+        ),
       ),
     );
   }

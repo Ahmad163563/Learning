@@ -17,7 +17,7 @@ class _WtspUIState extends State<WtspUI> {
         children: [
           Expanded(
               flex: 90,
-              child: select==1?WhatsAppChatScreen() : select==2?WhatsAppUpdatesScreen() : select==3? CommunityScreen() : select==4?WhatsAppCallScreen():Container(),
+              child: select==1?ChatListScreen() : select==2?WhatsAppUpdatesScreen() : select==3? CommunityScreen() : select==4?CallHistoryScreen():Container(),
           ),
           Expanded(
               flex: 10,
