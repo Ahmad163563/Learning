@@ -59,11 +59,24 @@ class ChatScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text('Chat'),
+    return Scaffold(
+      body:
+        Center(
+          child: Container(
+            child: Text('Chats'),
+          ),
+        )
     );
+
   }
 }
+
+
+
+
+
+
+
 class UpdateScreen extends StatelessWidget {
   const UpdateScreen({super.key});
 
