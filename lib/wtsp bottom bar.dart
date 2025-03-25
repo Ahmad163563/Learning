@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/callscreen.dart';
+import 'package:untitled/chatscreen.dart';
+import 'package:untitled/community.dart';
+import 'package:untitled/updatescreen.dart';
 class WtspUI extends StatefulWidget {
   const WtspUI({super.key});
   @override
@@ -13,7 +17,7 @@ class _WtspUIState extends State<WtspUI> {
         children: [
           Expanded(
               flex: 90,
-              child: select==1?ChatScreen() : select==2?UpdateScreen() : select==3?CommunityScreen() : select==4?CallsSreen():Container(),
+              child: select==1?WhatsAppChatScreen() : select==2?WhatsAppUpdatesScreen() : select==3? CommunityScreen() : select==4?WhatsAppCallScreen():Container(),
           ),
           Expanded(
               flex: 10,
@@ -49,61 +53,8 @@ class _WtspUIState extends State<WtspUI> {
           ],)
                 ,)
           )
-        ],
-      ),
-    );
-  }
-}
-class ChatScreen extends StatelessWidget {
-  const ChatScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body:
-        Center(
-          child: Container(
-            child: Text('Chats'),
-          ),
-        )
-    );
-
-  }
-}
-
-
-
-
-
-
-
-class UpdateScreen extends StatelessWidget {
-  const UpdateScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Text('Updates'),
-    );
-  }
-}
-class CommunityScreen extends StatelessWidget {
-  const CommunityScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Text('Community'),
-    );
-  }
-}
-class CallsSreen extends StatelessWidget {
-  const CallsSreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      child: Text('Calls'),
+        ]
+    )
     );
   }
 }
