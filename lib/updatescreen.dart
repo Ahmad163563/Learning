@@ -80,6 +80,33 @@ class WhatsAppUpdatesScreen extends StatelessWidget {
               subtitle: Text('30 minutes ago'),
               onTap: () {},
             ),
+            ListTile(
+              leading: CircleAvatar(
+                radius: 30,
+                backgroundImage: AssetImage('assets/friend2.jpg'), // Add your image asset
+              ),
+              title: Text('Amir'),
+              subtitle: Text('35 minutes ago'),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                radius: 30,
+                backgroundImage: AssetImage('assets/friend2.jpg'), // Add your image asset
+              ),
+              title: Text('Daniyal'),
+              subtitle: Text('40 minutes ago'),
+              onTap: () {},
+            ),
+            ListTile(
+              leading: CircleAvatar(
+                radius: 30,
+                backgroundImage: AssetImage('assets/friend2.jpg'), // Add your image asset
+              ),
+              title: Text('Asif'),
+              subtitle: Text('50 minutes ago'),
+              onTap: () {},
+            ),
           ],
         ),
       ),
