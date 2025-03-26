@@ -55,7 +55,7 @@ appBar: AppBar(),
                 Navigator.pop(context);
               },
               leading: Icon(Icons.email),
-              title: Text('Support us'),
+              title: Text('Support Us'),
             ),
           ],
         ),
