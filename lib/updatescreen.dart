@@ -17,8 +17,8 @@ class WhatsAppUpdatesScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('Updates', style: TextStyle(fontWeight: FontWeight.bold)),
         backgroundColor: Colors.white,
-        elevation: 0,
-        foregroundColor: Colors.black,
+
+
       ),
       body: SingleChildScrollView(
         child: Column(

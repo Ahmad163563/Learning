@@ -14,7 +14,54 @@ class _WtspUIState extends State<WtspUI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
+appBar: AppBar(),
+      drawer: Drawer(
+        backgroundColor: Colors.purpleAccent,
+        child: ListView(
+          children: [
+            UserAccountsDrawerHeader(
+              decoration: BoxDecoration(
+                color: Colors.purpleAccent
+              ),
+              currentAccountPicture: CircleAvatar(
+                backgroundImage: AssetImage('assests/pikaa..jpg')
+              ),
+                accountName: Text('Ahmad'),
+                accountEmail: Text('Flutter@Gmail.com')
+            ),
+            ListTile(
+              onTap: (){
+                Navigator.pop(context);
+              },
+              leading: Icon(Icons.home),
+              title: Text('Home'),
+            ),
+            ListTile(
+              onTap: (){
+                Navigator.pop(context);
+              },
+              leading: Icon(Icons.settings),
+              title: Text('Setting'),
+            ),
+            ListTile(
+              onTap: (){
+                Navigator.pop(context);
+              },
+              leading: Icon(Icons.share),
+              title: Text('Share'),
+            ),
+            ListTile(
+              onTap: (){
+                Navigator.pop(context);
+              },
+              leading: Icon(Icons.email),
+              title: Text('Support us'),
+            ),
+          ],
+        ),
+      ),
+      body:
+      Column(
         children: [
           Expanded(
               flex: 90,
