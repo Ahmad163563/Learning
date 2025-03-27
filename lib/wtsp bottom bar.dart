@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:untitled/callscreen.dart';
 import 'package:untitled/chatscreen.dart';
 import 'package:untitled/community.dart';
@@ -26,7 +27,8 @@ appBar: AppBar(),
               currentAccountPicture: CircleAvatar(
                 backgroundImage: AssetImage('assests/pikaa..jpg')
               ),
-                accountName: Text('Ahmad'),
+                accountName: Text('Ahmad',
+                ),
                 accountEmail: Text('Flutter@Gmail.com')
             ),
             ListTile(
@@ -34,28 +36,32 @@ appBar: AppBar(),
                 Navigator.pop(context);
               },
               leading: Icon(Icons.home),
-              title: Text('Home'),
-            ),
+              title: Text('Home',style: GoogleFonts.aBeeZee(
+                  fontSize: 50),
+              ),    ),
             ListTile(
               onTap: (){
                 Navigator.pop(context);
               },
               leading: Icon(Icons.settings),
-              title: Text('Setting'),
-            ),
+              title: Text('Setting',style: GoogleFonts.abel(
+                  fontSize: 50),
+            ),),
             ListTile(
               onTap: (){
                 Navigator.pop(context);
               },
               leading: Icon(Icons.share),
-              title: Text('Share'),
-            ),
+              title: Text('Share',style: GoogleFonts.aboreto(
+                  fontSize: 50),
+            ),),
             ListTile(
               onTap: (){
                 Navigator.pop(context);
               },
               leading: Icon(Icons.email),
-              title: Text('Support Us'),
+              title: Text('Support Us',style: GoogleFonts.aclonica(
+                  fontSize: 30),),
             ),
           ],
         ),
