@@ -61,7 +61,7 @@ appBar: AppBar(),
               },
               leading: Icon(Icons.email),
               title: Text('Support Us',style: GoogleFonts.aclonica(
-                  fontSize: 20),),
+                  fontSize: 30),),
             ),
           ],
         ),
